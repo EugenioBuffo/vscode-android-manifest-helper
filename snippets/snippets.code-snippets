@@ -10,7 +10,7 @@
     },
     "ACCEPT_HANDOVER": {
         "prefix": [
-            "up-accept_handover",
+            "uses-permission-accept_handover",
             "up-ah"
         ],
         "body": [
@@ -20,7 +20,7 @@
     },
     "ACCESS_BACKGROUND_LOCATION": {
         "prefix": [
-            "up-access_background_location",
+            "uses-permission-access_background_location",
             "up-abl"
         ],
         "body": [
@@ -30,7 +30,7 @@
     },
     "ACCESS_BLOBS_ACROSS_USERS": {
         "prefix": [
-            "up-access_blobs_across_users",
+            "uses-permission-access_blobs_across_users",
             "up-abau"
         ],
         "body": [
@@ -40,7 +40,7 @@
     },
     "ACCESS_CHECKIN_PROPERTIES": {
         "prefix": [
-            "up-access_checkin_properties",
+            "uses-permission-access_checkin_properties",
             "up-acp"
         ],
         "body": [
@@ -50,7 +50,7 @@
     },
     "ACCESS_COARSE_LOCATION": {
         "prefix": [
-            "up-access_coarse_location",
+            "uses-permission-access_coarse_location",
             "up-acl"
         ],
         "body": [
@@ -60,7 +60,7 @@
     },
     "ACCESS_FINE_LOCATION": {
         "prefix": [
-            "up-access_fine_location",
+            "uses-permission-access_fine_location",
             "up-afl"
         ],
         "body": [
@@ -70,7 +70,7 @@
     },
     "ACCESS_LOCATION_EXTRA_COMMANDS": {
         "prefix": [
-            "up-access_location_extra_commands",
+            "uses-permission-access_location_extra_commands",
             "up-alec"
         ],
         "body": [
@@ -80,7 +80,7 @@
     },
     "ACCESS_MEDIA_LOCATION": {
         "prefix": [
-            "up-access_media_location",
+            "uses-permission-access_media_location",
             "up-aml"
         ],
         "body": [
@@ -90,7 +90,7 @@
     },
     "ACCESS_NETWORK_STATE": {
         "prefix": [
-            "up-access_network_state",
+            "uses-permission-access_network_state",
             "up-ans"
         ],
         "body": [
@@ -100,7 +100,7 @@
     },
     "ACCESS_NOTIFICATION_POLICY": {
         "prefix": [
-            "up-access_notification_policy",
+            "uses-permission-access_notification_policy",
             "up-anp"
         ],
         "body": [
@@ -110,7 +110,7 @@
     },
     "ACCESS_WIFI_STATE": {
         "prefix": [
-            "up-access_wifi_state",
+            "uses-permission-access_wifi_state",
             "up-aws"
         ],
         "body": [
@@ -120,7 +120,7 @@
     },
     "ACCOUNT_MANAGER": {
         "prefix": [
-            "up-account_manager",
+            "uses-permission-account_manager",
             "up-am"
         ],
         "body": [
@@ -130,7 +130,7 @@
     },
     "ACTIVITY_RECOGNITION": {
         "prefix": [
-            "up-activity_recognition",
+            "uses-permission-activity_recognition",
             "up-ar"
         ],
         "body": [
@@ -140,7 +140,7 @@
     },
     "ADD_VOICEMAIL": {
         "prefix": [
-            "up-add_voicemail",
+            "uses-permission-add_voicemail",
             "up-av"
         ],
         "body": [
@@ -150,7 +150,7 @@
     },
     "ANSWER_PHONE_CALLS": {
         "prefix": [
-            "up-answer_phone_calls",
+            "uses-permission-answer_phone_calls",
             "up-apc"
         ],
         "body": [
@@ -160,7 +160,7 @@
     },
     "BATTERY_STATS": {
         "prefix": [
-            "up-battery_stats",
+            "uses-permission-battery_stats",
             "up-bs"
         ],
         "body": [
@@ -170,7 +170,7 @@
     },
     "BIND_ACCESSIBILITY_SERVICE": {
         "prefix": [
-            "up-bind_accessibility_service",
+            "uses-permission-bind_accessibility_service",
             "up-bas"
         ],
         "body": [
@@ -180,7 +180,7 @@
     },
     "BIND_APPWIDGET": {
         "prefix": [
-            "up-bind_appwidget",
+            "uses-permission-bind_appwidget",
             "up-ba"
         ],
         "body": [
@@ -190,7 +190,7 @@
     },
     "BIND_AUTOFILL_SERVICE": {
         "prefix": [
-            "up-bind_autofill_service",
+            "uses-permission-bind_autofill_service",
             "up-bas"
         ],
         "body": [
@@ -200,7 +200,7 @@
     },
     "BIND_CALL_REDIRECTION_SERVICE": {
         "prefix": [
-            "up-bind_call_redirection_service",
+            "uses-permission-bind_call_redirection_service",
             "up-bcrs"
         ],
         "body": [
@@ -210,7 +210,7 @@
     },
     "BIND_CARRIER_MESSAGING_CLIENT_SERVICE": {
         "prefix": [
-            "up-bind_carrier_messaging_client_service",
+            "uses-permission-bind_carrier_messaging_client_service",
             "up-bcmcs"
         ],
         "body": [
@@ -220,7 +220,7 @@
     },
     "BIND_CARRIER_MESSAGING_SERVICE": {
         "prefix": [
-            "up-bind_carrier_messaging_service",
+            "uses-permission-bind_carrier_messaging_service",
             "up-bcms"
         ],
         "body": [
@@ -230,7 +230,7 @@
     },
     "BIND_CARRIER_SERVICES": {
         "prefix": [
-            "up-bind_carrier_services",
+            "uses-permission-bind_carrier_services",
             "up-bcs"
         ],
         "body": [
@@ -240,7 +240,7 @@
     },
     "BIND_CHOOSER_TARGET_SERVICE": {
         "prefix": [
-            "up-bind_chooser_target_service",
+            "uses-permission-bind_chooser_target_service",
             "up-bcts"
         ],
         "body": [
@@ -250,7 +250,7 @@
     },
     "BIND_COMPANION_DEVICE_SERVICE": {
         "prefix": [
-            "up-bind_companion_device_service",
+            "uses-permission-bind_companion_device_service",
             "up-bcds"
         ],
         "body": [
@@ -260,7 +260,7 @@
     },
     "BIND_CONDITION_PROVIDER_SERVICE": {
         "prefix": [
-            "up-bind_condition_provider_service",
+            "uses-permission-bind_condition_provider_service",
             "up-bcps"
         ],
         "body": [
@@ -270,7 +270,7 @@
     },
     "BIND_CONTROLS": {
         "prefix": [
-            "up-bind_controls",
+            "uses-permission-bind_controls",
             "up-bc"
         ],
         "body": [
@@ -280,7 +280,7 @@
     },
     "BIND_DEVICE_ADMIN": {
         "prefix": [
-            "up-bind_device_admin",
+            "uses-permission-bind_device_admin",
             "up-bda"
         ],
         "body": [
@@ -290,7 +290,7 @@
     },
     "BIND_DREAM_SERVICE": {
         "prefix": [
-            "up-bind_dream_service",
+            "uses-permission-bind_dream_service",
             "up-bds"
         ],
         "body": [
@@ -300,7 +300,7 @@
     },
     "BIND_INCALL_SERVICE": {
         "prefix": [
-            "up-bind_incall_service",
+            "uses-permission-bind_incall_service",
             "up-bis"
         ],
         "body": [
@@ -310,7 +310,7 @@
     },
     "BIND_INPUT_METHOD": {
         "prefix": [
-            "up-bind_input_method",
+            "uses-permission-bind_input_method",
             "up-bim"
         ],
         "body": [
@@ -320,7 +320,7 @@
     },
     "BIND_MIDI_DEVICE_SERVICE": {
         "prefix": [
-            "up-bind_midi_device_service",
+            "uses-permission-bind_midi_device_service",
             "up-bmds"
         ],
         "body": [
@@ -330,7 +330,7 @@
     },
     "BIND_NFC_SERVICE": {
         "prefix": [
-            "up-bind_nfc_service",
+            "uses-permission-bind_nfc_service",
             "up-bns"
         ],
         "body": [
@@ -340,7 +340,7 @@
     },
     "BIND_NOTIFICATION_LISTENER_SERVICE": {
         "prefix": [
-            "up-bind_notification_listener_service",
+            "uses-permission-bind_notification_listener_service",
             "up-bnls"
         ],
         "body": [
@@ -350,7 +350,7 @@
     },
     "BIND_PRINT_SERVICE": {
         "prefix": [
-            "up-bind_print_service",
+            "uses-permission-bind_print_service",
             "up-bps"
         ],
         "body": [
@@ -360,7 +360,7 @@
     },
     "BIND_QUICK_ACCESS_WALLET_SERVICE": {
         "prefix": [
-            "up-bind_quick_access_wallet_service",
+            "uses-permission-bind_quick_access_wallet_service",
             "up-bqaws"
         ],
         "body": [
@@ -370,7 +370,7 @@
     },
     "BIND_QUICK_SETTINGS_TILE": {
         "prefix": [
-            "up-bind_quick_settings_tile",
+            "uses-permission-bind_quick_settings_tile",
             "up-bqst"
         ],
         "body": [
@@ -380,7 +380,7 @@
     },
     "BIND_REMOTEVIEWS": {
         "prefix": [
-            "up-bind_remoteviews",
+            "uses-permission-bind_remoteviews",
             "up-br"
         ],
         "body": [
@@ -390,7 +390,7 @@
     },
     "BIND_SCREENING_SERVICE": {
         "prefix": [
-            "up-bind_screening_service",
+            "uses-permission-bind_screening_service",
             "up-bss"
         ],
         "body": [
@@ -400,7 +400,7 @@
     },
     "BIND_TELECOM_CONNECTION_SERVICE": {
         "prefix": [
-            "up-bind_telecom_connection_service",
+            "uses-permission-bind_telecom_connection_service",
             "up-btcs"
         ],
         "body": [
@@ -410,7 +410,7 @@
     },
     "BIND_TEXT_SERVICE": {
         "prefix": [
-            "up-bind_text_service",
+            "uses-permission-bind_text_service",
             "up-bts"
         ],
         "body": [
@@ -420,7 +420,7 @@
     },
     "BIND_TV_INPUT": {
         "prefix": [
-            "up-bind_tv_input",
+            "uses-permission-bind_tv_input",
             "up-bti"
         ],
         "body": [
@@ -430,7 +430,7 @@
     },
     "BIND_VISUAL_VOICEMAIL_SERVICE": {
         "prefix": [
-            "up-bind_visual_voicemail_service",
+            "uses-permission-bind_visual_voicemail_service",
             "up-bvvs"
         ],
         "body": [
@@ -440,7 +440,7 @@
     },
     "BIND_VOICE_INTERACTION": {
         "prefix": [
-            "up-bind_voice_interaction",
+            "uses-permission-bind_voice_interaction",
             "up-bvi"
         ],
         "body": [
@@ -450,7 +450,7 @@
     },
     "BIND_VPN_SERVICE": {
         "prefix": [
-            "up-bind_vpn_service",
+            "uses-permission-bind_vpn_service",
             "up-bvs"
         ],
         "body": [
@@ -460,7 +460,7 @@
     },
     "BIND_VR_LISTENER_SERVICE": {
         "prefix": [
-            "up-bind_vr_listener_service",
+            "uses-permission-bind_vr_listener_service",
             "up-bvls"
         ],
         "body": [
@@ -470,7 +470,7 @@
     },
     "BIND_WALLPAPER": {
         "prefix": [
-            "up-bind_wallpaper",
+            "uses-permission-bind_wallpaper",
             "up-bw"
         ],
         "body": [
@@ -480,7 +480,7 @@
     },
     "BLUETOOTH": {
         "prefix": [
-            "up-bluetooth",
+            "uses-permission-bluetooth",
             "up-b"
         ],
         "body": [
@@ -490,7 +490,7 @@
     },
     "BLUETOOTH_ADMIN": {
         "prefix": [
-            "up-bluetooth_admin",
+            "uses-permission-bluetooth_admin",
             "up-ba"
         ],
         "body": [
@@ -500,7 +500,7 @@
     },
     "BLUETOOTH_ADVERTISE": {
         "prefix": [
-            "up-bluetooth_advertise",
+            "uses-permission-bluetooth_advertise",
             "up-ba"
         ],
         "body": [
@@ -510,7 +510,7 @@
     },
     "BLUETOOTH_CONNECT": {
         "prefix": [
-            "up-bluetooth_connect",
+            "uses-permission-bluetooth_connect",
             "up-bc"
         ],
         "body": [
@@ -520,7 +520,7 @@
     },
     "BLUETOOTH_PRIVILEGED": {
         "prefix": [
-            "up-bluetooth_privileged",
+            "uses-permission-bluetooth_privileged",
             "up-bp"
         ],
         "body": [
@@ -530,7 +530,7 @@
     },
     "BLUETOOTH_SCAN": {
         "prefix": [
-            "up-bluetooth_scan",
+            "uses-permission-bluetooth_scan",
             "up-bs"
         ],
         "body": [
@@ -540,7 +540,7 @@
     },
     "BODY_SENSORS": {
         "prefix": [
-            "up-body_sensors",
+            "uses-permission-body_sensors",
             "up-bs"
         ],
         "body": [
@@ -550,7 +550,7 @@
     },
     "BODY_SENSORS_BACKGROUND": {
         "prefix": [
-            "up-body_sensors_background",
+            "uses-permission-body_sensors_background",
             "up-bsb"
         ],
         "body": [
@@ -560,7 +560,7 @@
     },
     "BROADCAST_PACKAGE_REMOVED": {
         "prefix": [
-            "up-broadcast_package_removed",
+            "uses-permission-broadcast_package_removed",
             "up-bpr"
         ],
         "body": [
@@ -570,7 +570,7 @@
     },
     "BROADCAST_SMS": {
         "prefix": [
-            "up-broadcast_sms",
+            "uses-permission-broadcast_sms",
             "up-bs"
         ],
         "body": [
@@ -580,7 +580,7 @@
     },
     "BROADCAST_STICKY": {
         "prefix": [
-            "up-broadcast_sticky",
+            "uses-permission-broadcast_sticky",
             "up-bs"
         ],
         "body": [
@@ -590,7 +590,7 @@
     },
     "BROADCAST_WAP_PUSH": {
         "prefix": [
-            "up-broadcast_wap_push",
+            "uses-permission-broadcast_wap_push",
             "up-bwp"
         ],
         "body": [
@@ -600,7 +600,7 @@
     },
     "CALL_COMPANION_APP": {
         "prefix": [
-            "up-call_companion_app",
+            "uses-permission-call_companion_app",
             "up-cca"
         ],
         "body": [
@@ -610,7 +610,7 @@
     },
     "CALL_PHONE": {
         "prefix": [
-            "up-call_phone",
+            "uses-permission-call_phone",
             "up-cp"
         ],
         "body": [
@@ -620,7 +620,7 @@
     },
     "CALL_PRIVILEGED": {
         "prefix": [
-            "up-call_privileged",
+            "uses-permission-call_privileged",
             "up-cp"
         ],
         "body": [
@@ -630,7 +630,7 @@
     },
     "CAMERA": {
         "prefix": [
-            "up-camera",
+            "uses-permission-camera",
             "up-c"
         ],
         "body": [
@@ -640,7 +640,7 @@
     },
     "CAPTURE_AUDIO_OUTPUT": {
         "prefix": [
-            "up-capture_audio_output",
+            "uses-permission-capture_audio_output",
             "up-cao"
         ],
         "body": [
@@ -650,7 +650,7 @@
     },
     "CHANGE_COMPONENT_ENABLED_STATE": {
         "prefix": [
-            "up-change_component_enabled_state",
+            "uses-permission-change_component_enabled_state",
             "up-cces"
         ],
         "body": [
@@ -660,7 +660,7 @@
     },
     "CHANGE_CONFIGURATION": {
         "prefix": [
-            "up-change_configuration",
+            "uses-permission-change_configuration",
             "up-cc"
         ],
         "body": [
@@ -670,7 +670,7 @@
     },
     "CHANGE_NETWORK_STATE": {
         "prefix": [
-            "up-change_network_state",
+            "uses-permission-change_network_state",
             "up-cns"
         ],
         "body": [
@@ -680,7 +680,7 @@
     },
     "CHANGE_WIFI_MULTICAST_STATE": {
         "prefix": [
-            "up-change_wifi_multicast_state",
+            "uses-permission-change_wifi_multicast_state",
             "up-cwms"
         ],
         "body": [
@@ -690,7 +690,7 @@
     },
     "CHANGE_WIFI_STATE": {
         "prefix": [
-            "up-change_wifi_state",
+            "uses-permission-change_wifi_state",
             "up-cws"
         ],
         "body": [
@@ -700,7 +700,7 @@
     },
     "CLEAR_APP_CACHE": {
         "prefix": [
-            "up-clear_app_cache",
+            "uses-permission-clear_app_cache",
             "up-cac"
         ],
         "body": [
@@ -710,7 +710,7 @@
     },
     "CONTROL_LOCATION_UPDATES": {
         "prefix": [
-            "up-control_location_updates",
+            "uses-permission-control_location_updates",
             "up-clu"
         ],
         "body": [
@@ -720,7 +720,7 @@
     },
     "DELETE_CACHE_FILES": {
         "prefix": [
-            "up-delete_cache_files",
+            "uses-permission-delete_cache_files",
             "up-dcf"
         ],
         "body": [
@@ -730,7 +730,7 @@
     },
     "DELETE_PACKAGES": {
         "prefix": [
-            "up-delete_packages",
+            "uses-permission-delete_packages",
             "up-dp"
         ],
         "body": [
@@ -740,7 +740,7 @@
     },
     "DELIVER_COMPANION_MESSAGES": {
         "prefix": [
-            "up-deliver_companion_messages",
+            "uses-permission-deliver_companion_messages",
             "up-dcm"
         ],
         "body": [
@@ -750,7 +750,7 @@
     },
     "DIAGNOSTIC": {
         "prefix": [
-            "up-diagnostic",
+            "uses-permission-diagnostic",
             "up-d"
         ],
         "body": [
@@ -760,7 +760,7 @@
     },
     "DISABLE_KEYGUARD": {
         "prefix": [
-            "up-disable_keyguard",
+            "uses-permission-disable_keyguard",
             "up-dk"
         ],
         "body": [
@@ -770,7 +770,7 @@
     },
     "DUMP": {
         "prefix": [
-            "up-dump",
+            "uses-permission-dump",
             "up-d"
         ],
         "body": [
@@ -780,7 +780,7 @@
     },
     "EXPAND_STATUS_BAR": {
         "prefix": [
-            "up-expand_status_bar",
+            "uses-permission-expand_status_bar",
             "up-esb"
         ],
         "body": [
@@ -790,7 +790,7 @@
     },
     "FACTORY_TEST": {
         "prefix": [
-            "up-factory_test",
+            "uses-permission-factory_test",
             "up-ft"
         ],
         "body": [
@@ -800,7 +800,7 @@
     },
     "FOREGROUND_SERVICE": {
         "prefix": [
-            "up-foreground_service",
+            "uses-permission-foreground_service",
             "up-fs"
         ],
         "body": [
@@ -810,7 +810,7 @@
     },
     "GET_ACCOUNTS": {
         "prefix": [
-            "up-get_accounts",
+            "uses-permission-get_accounts",
             "up-ga"
         ],
         "body": [
@@ -820,7 +820,7 @@
     },
     "GET_ACCOUNTS_PRIVILEGED": {
         "prefix": [
-            "up-get_accounts_privileged",
+            "uses-permission-get_accounts_privileged",
             "up-gap"
         ],
         "body": [
@@ -830,7 +830,7 @@
     },
     "GET_PACKAGE_SIZE": {
         "prefix": [
-            "up-get_package_size",
+            "uses-permission-get_package_size",
             "up-gps"
         ],
         "body": [
@@ -840,7 +840,7 @@
     },
     "GET_TASKS": {
         "prefix": [
-            "up-get_tasks",
+            "uses-permission-get_tasks",
             "up-gt"
         ],
         "body": [
@@ -850,7 +850,7 @@
     },
     "GLOBAL_SEARCH": {
         "prefix": [
-            "up-global_search",
+            "uses-permission-global_search",
             "up-gs"
         ],
         "body": [
@@ -860,7 +860,7 @@
     },
     "HIDE_OVERLAY_WINDOWS": {
         "prefix": [
-            "up-hide_overlay_windows",
+            "uses-permission-hide_overlay_windows",
             "up-how"
         ],
         "body": [
@@ -870,7 +870,7 @@
     },
     "HIGH_SAMPLING_RATE_SENSORS": {
         "prefix": [
-            "up-high_sampling_rate_sensors",
+            "uses-permission-high_sampling_rate_sensors",
             "up-hsrs"
         ],
         "body": [
@@ -880,7 +880,7 @@
     },
     "INSTALL_LOCATION_PROVIDER": {
         "prefix": [
-            "up-install_location_provider",
+            "uses-permission-install_location_provider",
             "up-ilp"
         ],
         "body": [
@@ -890,7 +890,7 @@
     },
     "INSTALL_PACKAGES": {
         "prefix": [
-            "up-install_packages",
+            "uses-permission-install_packages",
             "up-ip"
         ],
         "body": [
@@ -900,7 +900,7 @@
     },
     "INSTALL_SHORTCUT": {
         "prefix": [
-            "up-install_shortcut",
+            "uses-permission-install_shortcut",
             "up-is"
         ],
         "body": [
@@ -910,7 +910,7 @@
     },
     "INSTANT_APP_FOREGROUND_SERVICE": {
         "prefix": [
-            "up-instant_app_foreground_service",
+            "uses-permission-instant_app_foreground_service",
             "up-iafs"
         ],
         "body": [
@@ -920,7 +920,7 @@
     },
     "INTERACT_ACROSS_PROFILES": {
         "prefix": [
-            "up-interact_across_profiles",
+            "uses-permission-interact_across_profiles",
             "up-iap"
         ],
         "body": [
@@ -930,7 +930,7 @@
     },
     "INTERNET": {
         "prefix": [
-            "up-internet",
+            "uses-permission-internet",
             "up-i"
         ],
         "body": [
@@ -940,7 +940,7 @@
     },
     "KILL_BACKGROUND_PROCESSES": {
         "prefix": [
-            "up-kill_background_processes",
+            "uses-permission-kill_background_processes",
             "up-kbp"
         ],
         "body": [
@@ -950,7 +950,7 @@
     },
     "LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK": {
         "prefix": [
-            "up-launch_multi_pane_settings_deep_link",
+            "uses-permission-launch_multi_pane_settings_deep_link",
             "up-lmpsdl"
         ],
         "body": [
@@ -960,7 +960,7 @@
     },
     "LOADER_USAGE_STATS": {
         "prefix": [
-            "up-loader_usage_stats",
+            "uses-permission-loader_usage_stats",
             "up-lus"
         ],
         "body": [
@@ -970,7 +970,7 @@
     },
     "LOCATION_HARDWARE": {
         "prefix": [
-            "up-location_hardware",
+            "uses-permission-location_hardware",
             "up-lh"
         ],
         "body": [
@@ -980,7 +980,7 @@
     },
     "MANAGE_DOCUMENTS": {
         "prefix": [
-            "up-manage_documents",
+            "uses-permission-manage_documents",
             "up-md"
         ],
         "body": [
@@ -990,7 +990,7 @@
     },
     "MANAGE_EXTERNAL_STORAGE": {
         "prefix": [
-            "up-manage_external_storage",
+            "uses-permission-manage_external_storage",
             "up-mes"
         ],
         "body": [
@@ -1000,7 +1000,7 @@
     },
     "MANAGE_MEDIA": {
         "prefix": [
-            "up-manage_media",
+            "uses-permission-manage_media",
             "up-mm"
         ],
         "body": [
@@ -1010,7 +1010,7 @@
     },
     "MANAGE_ONGOING_CALLS": {
         "prefix": [
-            "up-manage_ongoing_calls",
+            "uses-permission-manage_ongoing_calls",
             "up-moc"
         ],
         "body": [
@@ -1020,7 +1020,7 @@
     },
     "MANAGE_OWN_CALLS": {
         "prefix": [
-            "up-manage_own_calls",
+            "uses-permission-manage_own_calls",
             "up-moc"
         ],
         "body": [
@@ -1030,7 +1030,7 @@
     },
     "MASTER_CLEAR": {
         "prefix": [
-            "up-master_clear",
+            "uses-permission-master_clear",
             "up-mc"
         ],
         "body": [
@@ -1040,7 +1040,7 @@
     },
     "MEDIA_CONTENT_CONTROL": {
         "prefix": [
-            "up-media_content_control",
+            "uses-permission-media_content_control",
             "up-mcc"
         ],
         "body": [
@@ -1050,7 +1050,7 @@
     },
     "MODIFY_AUDIO_SETTINGS": {
         "prefix": [
-            "up-modify_audio_settings",
+            "uses-permission-modify_audio_settings",
             "up-mas"
         ],
         "body": [
@@ -1060,7 +1060,7 @@
     },
     "MODIFY_PHONE_STATE": {
         "prefix": [
-            "up-modify_phone_state",
+            "uses-permission-modify_phone_state",
             "up-mps"
         ],
         "body": [
@@ -1070,7 +1070,7 @@
     },
     "MOUNT_FORMAT_FILESYSTEMS": {
         "prefix": [
-            "up-mount_format_filesystems",
+            "uses-permission-mount_format_filesystems",
             "up-mff"
         ],
         "body": [
@@ -1080,7 +1080,7 @@
     },
     "MOUNT_UNMOUNT_FILESYSTEMS": {
         "prefix": [
-            "up-mount_unmount_filesystems",
+            "uses-permission-mount_unmount_filesystems",
             "up-muf"
         ],
         "body": [
@@ -1090,7 +1090,7 @@
     },
     "NEARBY_WIFI_DEVICES": {
         "prefix": [
-            "up-nearby_wifi_devices",
+            "uses-permission-nearby_wifi_devices",
             "up-nwd"
         ],
         "body": [
@@ -1100,7 +1100,7 @@
     },
     "NFC": {
         "prefix": [
-            "up-nfc",
+            "uses-permission-nfc",
             "up-n"
         ],
         "body": [
@@ -1110,7 +1110,7 @@
     },
     "NFC_PREFERRED_PAYMENT_INFO": {
         "prefix": [
-            "up-nfc_preferred_payment_info",
+            "uses-permission-nfc_preferred_payment_info",
             "up-nppi"
         ],
         "body": [
@@ -1120,7 +1120,7 @@
     },
     "NFC_TRANSACTION_EVENT": {
         "prefix": [
-            "up-nfc_transaction_event",
+            "uses-permission-nfc_transaction_event",
             "up-nte"
         ],
         "body": [
@@ -1130,7 +1130,7 @@
     },
     "PACKAGE_USAGE_STATS": {
         "prefix": [
-            "up-package_usage_stats",
+            "uses-permission-package_usage_stats",
             "up-pus"
         ],
         "body": [
@@ -1140,7 +1140,7 @@
     },
     "PERSISTENT_ACTIVITY": {
         "prefix": [
-            "up-persistent_activity",
+            "uses-permission-persistent_activity",
             "up-pa"
         ],
         "body": [
@@ -1150,7 +1150,7 @@
     },
     "POST_NOTIFICATIONS": {
         "prefix": [
-            "up-post_notifications",
+            "uses-permission-post_notifications",
             "up-pn"
         ],
         "body": [
@@ -1160,7 +1160,7 @@
     },
     "PROCESS_OUTGOING_CALLS": {
         "prefix": [
-            "up-process_outgoing_calls",
+            "uses-permission-process_outgoing_calls",
             "up-poc"
         ],
         "body": [
@@ -1170,7 +1170,7 @@
     },
     "QUERY_ALL_PACKAGES": {
         "prefix": [
-            "up-query_all_packages",
+            "uses-permission-query_all_packages",
             "up-qap"
         ],
         "body": [
@@ -1180,7 +1180,7 @@
     },
     "READ_BASIC_PHONE_STATE": {
         "prefix": [
-            "up-read_basic_phone_state",
+            "uses-permission-read_basic_phone_state",
             "up-rbps"
         ],
         "body": [
@@ -1190,7 +1190,7 @@
     },
     "READ_CALENDAR": {
         "prefix": [
-            "up-read_calendar",
+            "uses-permission-read_calendar",
             "up-rc"
         ],
         "body": [
@@ -1200,7 +1200,7 @@
     },
     "READ_CALL_LOG": {
         "prefix": [
-            "up-read_call_log",
+            "uses-permission-read_call_log",
             "up-rcl"
         ],
         "body": [
@@ -1210,7 +1210,7 @@
     },
     "READ_CONTACTS": {
         "prefix": [
-            "up-read_contacts",
+            "uses-permission-read_contacts",
             "up-rc"
         ],
         "body": [
@@ -1220,7 +1220,7 @@
     },
     "READ_EXTERNAL_STORAGE": {
         "prefix": [
-            "up-read_external_storage",
+            "uses-permission-read_external_storage",
             "up-res"
         ],
         "body": [
@@ -1230,7 +1230,7 @@
     },
     "READ_INPUT_STATE": {
         "prefix": [
-            "up-read_input_state",
+            "uses-permission-read_input_state",
             "up-ris"
         ],
         "body": [
@@ -1240,7 +1240,7 @@
     },
     "READ_LOGS": {
         "prefix": [
-            "up-read_logs",
+            "uses-permission-read_logs",
             "up-rl"
         ],
         "body": [
@@ -1250,7 +1250,7 @@
     },
     "READ_NEARBY_STREAMING_POLICY": {
         "prefix": [
-            "up-read_nearby_streaming_policy",
+            "uses-permission-read_nearby_streaming_policy",
             "up-rnsp"
         ],
         "body": [
@@ -1260,7 +1260,7 @@
     },
     "READ_PHONE_NUMBERS": {
         "prefix": [
-            "up-read_phone_numbers",
+            "uses-permission-read_phone_numbers",
             "up-rpn"
         ],
         "body": [
@@ -1270,7 +1270,7 @@
     },
     "READ_PHONE_STATE": {
         "prefix": [
-            "up-read_phone_state",
+            "uses-permission-read_phone_state",
             "up-rps"
         ],
         "body": [
@@ -1280,7 +1280,7 @@
     },
     "READ_PRECISE_PHONE_STATE": {
         "prefix": [
-            "up-read_precise_phone_state",
+            "uses-permission-read_precise_phone_state",
             "up-rpps"
         ],
         "body": [
@@ -1290,7 +1290,7 @@
     },
     "READ_SMS": {
         "prefix": [
-            "up-read_sms",
+            "uses-permission-read_sms",
             "up-rs"
         ],
         "body": [
@@ -1300,7 +1300,7 @@
     },
     "READ_SYNC_SETTINGS": {
         "prefix": [
-            "up-read_sync_settings",
+            "uses-permission-read_sync_settings",
             "up-rss"
         ],
         "body": [
@@ -1310,7 +1310,7 @@
     },
     "READ_SYNC_STATS": {
         "prefix": [
-            "up-read_sync_stats",
+            "uses-permission-read_sync_stats",
             "up-rss"
         ],
         "body": [
@@ -1320,7 +1320,7 @@
     },
     "READ_VOICEMAIL": {
         "prefix": [
-            "up-read_voicemail",
+            "uses-permission-read_voicemail",
             "up-rv"
         ],
         "body": [
@@ -1330,7 +1330,7 @@
     },
     "REBOOT": {
         "prefix": [
-            "up-reboot",
+            "uses-permission-reboot",
             "up-r"
         ],
         "body": [
@@ -1340,7 +1340,7 @@
     },
     "RECEIVE_BOOT_COMPLETED": {
         "prefix": [
-            "up-receive_boot_completed",
+            "uses-permission-receive_boot_completed",
             "up-rbc"
         ],
         "body": [
@@ -1350,7 +1350,7 @@
     },
     "RECEIVE_MMS": {
         "prefix": [
-            "up-receive_mms",
+            "uses-permission-receive_mms",
             "up-rm"
         ],
         "body": [
@@ -1360,7 +1360,7 @@
     },
     "RECEIVE_SMS": {
         "prefix": [
-            "up-receive_sms",
+            "uses-permission-receive_sms",
             "up-rs"
         ],
         "body": [
@@ -1370,7 +1370,7 @@
     },
     "RECEIVE_WAP_PUSH": {
         "prefix": [
-            "up-receive_wap_push",
+            "uses-permission-receive_wap_push",
             "up-rwp"
         ],
         "body": [
@@ -1380,7 +1380,7 @@
     },
     "RECORD_AUDIO": {
         "prefix": [
-            "up-record_audio",
+            "uses-permission-record_audio",
             "up-ra"
         ],
         "body": [
@@ -1390,7 +1390,7 @@
     },
     "REORDER_TASKS": {
         "prefix": [
-            "up-reorder_tasks",
+            "uses-permission-reorder_tasks",
             "up-rt"
         ],
         "body": [
@@ -1400,7 +1400,7 @@
     },
     "CompanionDeviceManager": {
         "prefix": [
-            "up-companiondevicemanager",
+            "uses-permission-companiondevicemanager",
             "up-c"
         ],
         "body": [
@@ -1410,7 +1410,7 @@
     },
     "REQUEST_COMPANION_RUN_IN_BACKGROUND": {
         "prefix": [
-            "up-request_companion_run_in_background",
+            "uses-permission-request_companion_run_in_background",
             "up-rcrib"
         ],
         "body": [
@@ -1420,7 +1420,7 @@
     },
     "REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND": {
         "prefix": [
-            "up-request_companion_start_foreground_services_from_background",
+            "uses-permission-request_companion_start_foreground_services_from_background",
             "up-rcsfsfb"
         ],
         "body": [
@@ -1430,7 +1430,7 @@
     },
     "REQUEST_COMPANION_USE_DATA_IN_BACKGROUND": {
         "prefix": [
-            "up-request_companion_use_data_in_background",
+            "uses-permission-request_companion_use_data_in_background",
             "up-rcudib"
         ],
         "body": [
@@ -1440,7 +1440,7 @@
     },
     "REQUEST_DELETE_PACKAGES": {
         "prefix": [
-            "up-request_delete_packages",
+            "uses-permission-request_delete_packages",
             "up-rdp"
         ],
         "body": [
@@ -1450,7 +1450,7 @@
     },
     "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS": {
         "prefix": [
-            "up-request_ignore_battery_optimizations",
+            "uses-permission-request_ignore_battery_optimizations",
             "up-ribo"
         ],
         "body": [
@@ -1460,7 +1460,7 @@
     },
     "REQUEST_INSTALL_PACKAGES": {
         "prefix": [
-            "up-request_install_packages",
+            "uses-permission-request_install_packages",
             "up-rip"
         ],
         "body": [
@@ -1470,7 +1470,7 @@
     },
     "REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE": {
         "prefix": [
-            "up-request_observe_companion_device_presence",
+            "uses-permission-request_observe_companion_device_presence",
             "up-rocdp"
         ],
         "body": [
@@ -1480,7 +1480,7 @@
     },
     "REQUEST_PASSWORD_COMPLEXITY": {
         "prefix": [
-            "up-request_password_complexity",
+            "uses-permission-request_password_complexity",
             "up-rpc"
         ],
         "body": [
@@ -1490,7 +1490,7 @@
     },
     "RESTART_PACKAGES": {
         "prefix": [
-            "up-restart_packages",
+            "uses-permission-restart_packages",
             "up-rp"
         ],
         "body": [
@@ -1500,7 +1500,7 @@
     },
     "SCHEDULE_EXACT_ALARM": {
         "prefix": [
-            "up-schedule_exact_alarm",
+            "uses-permission-schedule_exact_alarm",
             "up-sea"
         ],
         "body": [
@@ -1510,7 +1510,7 @@
     },
     "SEND_RESPOND_VIA_MESSAGE": {
         "prefix": [
-            "up-send_respond_via_message",
+            "uses-permission-send_respond_via_message",
             "up-srvm"
         ],
         "body": [
@@ -1520,7 +1520,7 @@
     },
     "SEND_SMS": {
         "prefix": [
-            "up-send_sms",
+            "uses-permission-send_sms",
             "up-ss"
         ],
         "body": [
@@ -1530,7 +1530,7 @@
     },
     "SET_ALARM": {
         "prefix": [
-            "up-set_alarm",
+            "uses-permission-set_alarm",
             "up-sa"
         ],
         "body": [
@@ -1540,7 +1540,7 @@
     },
     "SET_ALWAYS_FINISH": {
         "prefix": [
-            "up-set_always_finish",
+            "uses-permission-set_always_finish",
             "up-saf"
         ],
         "body": [
@@ -1550,7 +1550,7 @@
     },
     "SET_ANIMATION_SCALE": {
         "prefix": [
-            "up-set_animation_scale",
+            "uses-permission-set_animation_scale",
             "up-sas"
         ],
         "body": [
@@ -1560,7 +1560,7 @@
     },
     "SET_DEBUG_APP": {
         "prefix": [
-            "up-set_debug_app",
+            "uses-permission-set_debug_app",
             "up-sda"
         ],
         "body": [
@@ -1570,7 +1570,7 @@
     },
     "SET_PREFERRED_APPLICATIONS": {
         "prefix": [
-            "up-set_preferred_applications",
+            "uses-permission-set_preferred_applications",
             "up-spa"
         ],
         "body": [
@@ -1580,7 +1580,7 @@
     },
     "SET_PROCESS_LIMIT": {
         "prefix": [
-            "up-set_process_limit",
+            "uses-permission-set_process_limit",
             "up-spl"
         ],
         "body": [
@@ -1590,7 +1590,7 @@
     },
     "SET_TIME": {
         "prefix": [
-            "up-set_time",
+            "uses-permission-set_time",
             "up-st"
         ],
         "body": [
@@ -1600,7 +1600,7 @@
     },
     "SET_TIME_ZONE": {
         "prefix": [
-            "up-set_time_zone",
+            "uses-permission-set_time_zone",
             "up-stz"
         ],
         "body": [
@@ -1610,7 +1610,7 @@
     },
     "SET_WALLPAPER": {
         "prefix": [
-            "up-set_wallpaper",
+            "uses-permission-set_wallpaper",
             "up-sw"
         ],
         "body": [
@@ -1620,7 +1620,7 @@
     },
     "SET_WALLPAPER_HINTS": {
         "prefix": [
-            "up-set_wallpaper_hints",
+            "uses-permission-set_wallpaper_hints",
             "up-swh"
         ],
         "body": [
@@ -1630,7 +1630,7 @@
     },
     "SIGNAL_PERSISTENT_PROCESSES": {
         "prefix": [
-            "up-signal_persistent_processes",
+            "uses-permission-signal_persistent_processes",
             "up-spp"
         ],
         "body": [
@@ -1640,7 +1640,7 @@
     },
     "SMS_FINANCIAL_TRANSACTIONS": {
         "prefix": [
-            "up-sms_financial_transactions",
+            "uses-permission-sms_financial_transactions",
             "up-sft"
         ],
         "body": [
@@ -1650,7 +1650,7 @@
     },
     "START_FOREGROUND_SERVICES_FROM_BACKGROUND": {
         "prefix": [
-            "up-start_foreground_services_from_background",
+            "uses-permission-start_foreground_services_from_background",
             "up-sfsfb"
         ],
         "body": [
@@ -1660,7 +1660,7 @@
     },
     "START_VIEW_APP_FEATURES": {
         "prefix": [
-            "up-start_view_app_features",
+            "uses-permission-start_view_app_features",
             "up-svaf"
         ],
         "body": [
@@ -1670,7 +1670,7 @@
     },
     "START_VIEW_PERMISSION_USAGE": {
         "prefix": [
-            "up-start_view_permission_usage",
+            "uses-permission-start_view_permission_usage",
             "up-svpu"
         ],
         "body": [
@@ -1680,7 +1680,7 @@
     },
     "STATUS_BAR": {
         "prefix": [
-            "up-status_bar",
+            "uses-permission-status_bar",
             "up-sb"
         ],
         "body": [
@@ -1690,7 +1690,7 @@
     },
     "SYSTEM_ALERT_WINDOW": {
         "prefix": [
-            "up-system_alert_window",
+            "uses-permission-system_alert_window",
             "up-saw"
         ],
         "body": [
@@ -1700,7 +1700,7 @@
     },
     "TRANSMIT_IR": {
         "prefix": [
-            "up-transmit_ir",
+            "uses-permission-transmit_ir",
             "up-ti"
         ],
         "body": [
@@ -1710,7 +1710,7 @@
     },
     "UNINSTALL_SHORTCUT": {
         "prefix": [
-            "up-uninstall_shortcut",
+            "uses-permission-uninstall_shortcut",
             "up-us"
         ],
         "body": [
@@ -1720,7 +1720,7 @@
     },
     "UPDATE_DEVICE_STATS": {
         "prefix": [
-            "up-update_device_stats",
+            "uses-permission-update_device_stats",
             "up-uds"
         ],
         "body": [
@@ -1730,7 +1730,7 @@
     },
     "UPDATE_PACKAGES_WITHOUT_USER_ACTION": {
         "prefix": [
-            "up-update_packages_without_user_action",
+            "uses-permission-update_packages_without_user_action",
             "up-upwua"
         ],
         "body": [
@@ -1740,7 +1740,7 @@
     },
     "USE_BIOMETRIC": {
         "prefix": [
-            "up-use_biometric",
+            "uses-permission-use_biometric",
             "up-ub"
         ],
         "body": [
@@ -1750,7 +1750,7 @@
     },
     "USE_FINGERPRINT": {
         "prefix": [
-            "up-use_fingerprint",
+            "uses-permission-use_fingerprint",
             "up-uf"
         ],
         "body": [
@@ -1760,7 +1760,7 @@
     },
     "USE_FULL_SCREEN_INTENT": {
         "prefix": [
-            "up-use_full_screen_intent",
+            "uses-permission-use_full_screen_intent",
             "up-ufsi"
         ],
         "body": [
@@ -1770,7 +1770,7 @@
     },
     "USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER": {
         "prefix": [
-            "up-use_icc_auth_with_device_identifier",
+            "uses-permission-use_icc_auth_with_device_identifier",
             "up-uiawdi"
         ],
         "body": [
@@ -1780,7 +1780,7 @@
     },
     "USE_SIP": {
         "prefix": [
-            "up-use_sip",
+            "uses-permission-use_sip",
             "up-us"
         ],
         "body": [
@@ -1790,7 +1790,7 @@
     },
     "UWB_RANGING": {
         "prefix": [
-            "up-uwb_ranging",
+            "uses-permission-uwb_ranging",
             "up-ur"
         ],
         "body": [
@@ -1800,7 +1800,7 @@
     },
     "VIBRATE": {
         "prefix": [
-            "up-vibrate",
+            "uses-permission-vibrate",
             "up-v"
         ],
         "body": [
@@ -1810,7 +1810,7 @@
     },
     "WAKE_LOCK": {
         "prefix": [
-            "up-wake_lock",
+            "uses-permission-wake_lock",
             "up-wl"
         ],
         "body": [
@@ -1820,7 +1820,7 @@
     },
     "WRITE_APN_SETTINGS": {
         "prefix": [
-            "up-write_apn_settings",
+            "uses-permission-write_apn_settings",
             "up-was"
         ],
         "body": [
@@ -1830,7 +1830,7 @@
     },
     "WRITE_CALENDAR": {
         "prefix": [
-            "up-write_calendar",
+            "uses-permission-write_calendar",
             "up-wc"
         ],
         "body": [
@@ -1840,7 +1840,7 @@
     },
     "WRITE_CALL_LOG": {
         "prefix": [
-            "up-write_call_log",
+            "uses-permission-write_call_log",
             "up-wcl"
         ],
         "body": [
@@ -1850,7 +1850,7 @@
     },
     "WRITE_CONTACTS": {
         "prefix": [
-            "up-write_contacts",
+            "uses-permission-write_contacts",
             "up-wc"
         ],
         "body": [
@@ -1860,7 +1860,7 @@
     },
     "WRITE_EXTERNAL_STORAGE": {
         "prefix": [
-            "up-write_external_storage",
+            "uses-permission-write_external_storage",
             "up-wes"
         ],
         "body": [
@@ -1870,7 +1870,7 @@
     },
     "WRITE_GSERVICES": {
         "prefix": [
-            "up-write_gservices",
+            "uses-permission-write_gservices",
             "up-wg"
         ],
         "body": [
@@ -1880,7 +1880,7 @@
     },
     "WRITE_SECURE_SETTINGS": {
         "prefix": [
-            "up-write_secure_settings",
+            "uses-permission-write_secure_settings",
             "up-wss"
         ],
         "body": [
@@ -1890,7 +1890,7 @@
     },
     "WRITE_SETTINGS": {
         "prefix": [
-            "up-write_settings",
+            "uses-permission-write_settings",
             "up-ws"
         ],
         "body": [
@@ -1900,7 +1900,7 @@
     },
     "WRITE_SYNC_SETTINGS": {
         "prefix": [
-            "up-write_sync_settings",
+            "uses-permission-write_sync_settings",
             "up-wss"
         ],
         "body": [
@@ -1910,7 +1910,7 @@
     },
     "WRITE_VOICEMAIL": {
         "prefix": [
-            "up-write_voicemail",
+            "uses-permission-write_voicemail",
             "up-wv"
         ],
         "body": [
