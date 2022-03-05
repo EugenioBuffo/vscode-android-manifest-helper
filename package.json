@@ -3,6 +3,7 @@
   "displayName": "Android Manifest Snippets",
   "description": "Snippets for Android Manifest (AndroidManifest.xml)",
   "version": "1.0.0",
+  "icon": "/images/icon.png",
   "engines": {
     "vscode": "^1.65.0"
   },
