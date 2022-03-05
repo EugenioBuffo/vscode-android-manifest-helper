@@ -1,20 +1,20 @@
 {
-    "name": "android-manifest-snippets",
-    "displayName": "Android Manifest Snippets",
-    "description": "Snippets for Android Manifest permissions",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.65.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "xml",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    }
+  "name": "android-manifest-snippets",
+  "displayName": "Android Manifest Snippets",
+  "description": "Snippets for Android Manifest (AndroidManifest.xml)",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "xml",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
 }
