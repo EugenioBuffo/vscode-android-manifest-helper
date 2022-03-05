@@ -1,9 +1,12 @@
 # Change Log
 
-All notable changes to the "android-manifest-snippets" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
+This is the Changelog of **"android-manifest-snippets"** extension. 
 ## [Unreleased]
 
 - Initial release
+
+
+## [1.0.0] - 2022-03-05
+### Added
+- All currently supported **"uses-permission"** snippet for AndroidManifest.xml
+- Simple **"manifest"** structure code snippet.
