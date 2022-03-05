@@ -1,1 +1,1921 @@
-{}
+{
+    "Default Manifest": {
+        "prefix": [
+            "am-manifest"
+        ],
+        "body": [
+            "<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"${1:com.example.appname}\">\n\t<application \n\t\tandroid:label=\"${2:App Name}\"\n\t\tandroid:name=\"${3:App Name}\"\n\t\tandroid:icon=\"@mipmap/icon\" >\n\t\t<activity android:name=\".MainActivity\"\n\t\t\tandroid:configChanges=\"orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode\"\n\t\t\tandroid:hardwareAccelerated=\"true\"\n\t\t\tandroid:windowSoftInputMode=\"adjustResize\" >\n\t\t\t$4\n\t\t</activity>\n\t</application>\n\t$5\n</manifest>"
+        ],
+        "description": "Create an AndroidManifest.xml"
+    },
+    "ACCEPT_HANDOVER": {
+        "prefix": [
+            "up-accept_handover",
+            "up-ah"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACCEPT_HANDOVER\" />"
+        ],
+        "description": "Allows a calling app to continue a call which was started in another app."
+    },
+    "ACCESS_BACKGROUND_LOCATION": {
+        "prefix": [
+            "up-access_background_location",
+            "up-abl"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACCESS_BACKGROUND_LOCATION\" />"
+        ],
+        "description": "Allows an app to access location in the background."
+    },
+    "ACCESS_BLOBS_ACROSS_USERS": {
+        "prefix": [
+            "up-access_blobs_across_users",
+            "up-abau"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACCESS_BLOBS_ACROSS_USERS\" />"
+        ],
+        "description": "Allows an application to access data blobs across users."
+    },
+    "ACCESS_CHECKIN_PROPERTIES": {
+        "prefix": [
+            "up-access_checkin_properties",
+            "up-acp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACCESS_CHECKIN_PROPERTIES\" />"
+        ],
+        "description": "Allows read/write access to the \"properties\" table in the checkin database, to change values that get uploaded."
+    },
+    "ACCESS_COARSE_LOCATION": {
+        "prefix": [
+            "up-access_coarse_location",
+            "up-acl"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />"
+        ],
+        "description": "Allows an app to access approximate location."
+    },
+    "ACCESS_FINE_LOCATION": {
+        "prefix": [
+            "up-access_fine_location",
+            "up-afl"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />"
+        ],
+        "description": "Allows an app to access precise location."
+    },
+    "ACCESS_LOCATION_EXTRA_COMMANDS": {
+        "prefix": [
+            "up-access_location_extra_commands",
+            "up-alec"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS\" />"
+        ],
+        "description": "Allows an application to access extra location provider commands."
+    },
+    "ACCESS_MEDIA_LOCATION": {
+        "prefix": [
+            "up-access_media_location",
+            "up-aml"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACCESS_MEDIA_LOCATION\" />"
+        ],
+        "description": "Allows an application to access any geographic locations persisted in the user's shared collection."
+    },
+    "ACCESS_NETWORK_STATE": {
+        "prefix": [
+            "up-access_network_state",
+            "up-ans"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />"
+        ],
+        "description": "Allows applications to access information about networks."
+    },
+    "ACCESS_NOTIFICATION_POLICY": {
+        "prefix": [
+            "up-access_notification_policy",
+            "up-anp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACCESS_NOTIFICATION_POLICY\" />"
+        ],
+        "description": "Marker permission for applications that wish to access notification policy."
+    },
+    "ACCESS_WIFI_STATE": {
+        "prefix": [
+            "up-access_wifi_state",
+            "up-aws"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />"
+        ],
+        "description": "Allows applications to access information about Wi-Fi networks."
+    },
+    "ACCOUNT_MANAGER": {
+        "prefix": [
+            "up-account_manager",
+            "up-am"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACCOUNT_MANAGER\" />"
+        ],
+        "description": "Allows applications to call into AccountAuthenticators."
+    },
+    "ACTIVITY_RECOGNITION": {
+        "prefix": [
+            "up-activity_recognition",
+            "up-ar"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ACTIVITY_RECOGNITION\" />"
+        ],
+        "description": "Allows an application to recognize physical activity."
+    },
+    "ADD_VOICEMAIL": {
+        "prefix": [
+            "up-add_voicemail",
+            "up-av"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ADD_VOICEMAIL\" />"
+        ],
+        "description": "Allows an application to add voicemails into the system."
+    },
+    "ANSWER_PHONE_CALLS": {
+        "prefix": [
+            "up-answer_phone_calls",
+            "up-apc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.ANSWER_PHONE_CALLS\" />"
+        ],
+        "description": "Allows the app to answer an incoming phone call."
+    },
+    "BATTERY_STATS": {
+        "prefix": [
+            "up-battery_stats",
+            "up-bs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BATTERY_STATS\" />"
+        ],
+        "description": "Allows an application to collect battery statistics."
+    },
+    "BIND_ACCESSIBILITY_SERVICE": {
+        "prefix": [
+            "up-bind_accessibility_service",
+            "up-bas"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_ACCESSIBILITY_SERVICE\" />"
+        ],
+        "description": "Must be required by an AccessibilityService, to ensure that only the system can bind to it."
+    },
+    "BIND_APPWIDGET": {
+        "prefix": [
+            "up-bind_appwidget",
+            "up-ba"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_APPWIDGET\" />"
+        ],
+        "description": "Allows an application to tell the AppWidget service which application can access AppWidget's data."
+    },
+    "BIND_AUTOFILL_SERVICE": {
+        "prefix": [
+            "up-bind_autofill_service",
+            "up-bas"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_AUTOFILL_SERVICE\" />"
+        ],
+        "description": "Must be required by a AutofillService, to ensure that only the system can bind to it."
+    },
+    "BIND_CALL_REDIRECTION_SERVICE": {
+        "prefix": [
+            "up-bind_call_redirection_service",
+            "up-bcrs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_CALL_REDIRECTION_SERVICE\" />"
+        ],
+        "description": "Must be required by a CallRedirectionService, to ensure that only the system can bind to it."
+    },
+    "BIND_CARRIER_MESSAGING_CLIENT_SERVICE": {
+        "prefix": [
+            "up-bind_carrier_messaging_client_service",
+            "up-bcmcs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_CARRIER_MESSAGING_CLIENT_SERVICE\" />"
+        ],
+        "description": "A subclass of CarrierMessagingClientServicemust be protected with this permission."
+    },
+    "BIND_CARRIER_MESSAGING_SERVICE": {
+        "prefix": [
+            "up-bind_carrier_messaging_service",
+            "up-bcms"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_CARRIER_MESSAGING_SERVICE\" />"
+        ],
+        "description": "[DEPRECATED] Deprecated in API level 23.\n\nINFO: https://developer.android.com/reference/android/Manifest.permission#BIND_CARRIER_SERVICES\nUse BIND_CARRIER_SERVICES instead."
+    },
+    "BIND_CARRIER_SERVICES": {
+        "prefix": [
+            "up-bind_carrier_services",
+            "up-bcs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_CARRIER_SERVICES\" />"
+        ],
+        "description": "The system process that is allowed to bind to services in carrier apps will have this permission."
+    },
+    "BIND_CHOOSER_TARGET_SERVICE": {
+        "prefix": [
+            "up-bind_chooser_target_service",
+            "up-bcts"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_CHOOSER_TARGET_SERVICE\" />"
+        ],
+        "description": "[DEPRECATED] Deprecated in API level 30.\n\nFor publishing direct share targets, please follow the instructions in https://developer.android.com/training/sharing/receive.html#providing-direct-share-targets instead."
+    },
+    "BIND_COMPANION_DEVICE_SERVICE": {
+        "prefix": [
+            "up-bind_companion_device_service",
+            "up-bcds"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_COMPANION_DEVICE_SERVICE\" />"
+        ],
+        "description": "Must be required by any CompanionDeviceServices to ensure that only the system can bind to it."
+    },
+    "BIND_CONDITION_PROVIDER_SERVICE": {
+        "prefix": [
+            "up-bind_condition_provider_service",
+            "up-bcps"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_CONDITION_PROVIDER_SERVICE\" />"
+        ],
+        "description": "Must be required by a ConditionProviderService, to ensure that only the system can bind to it."
+    },
+    "BIND_CONTROLS": {
+        "prefix": [
+            "up-bind_controls",
+            "up-bc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_CONTROLS\" />"
+        ],
+        "description": "Allows SystemUI to request third party controls."
+    },
+    "BIND_DEVICE_ADMIN": {
+        "prefix": [
+            "up-bind_device_admin",
+            "up-bda"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_DEVICE_ADMIN\" />"
+        ],
+        "description": "Must be required by device administration receiver, to ensure that only the system can interact with it."
+    },
+    "BIND_DREAM_SERVICE": {
+        "prefix": [
+            "up-bind_dream_service",
+            "up-bds"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_DREAM_SERVICE\" />"
+        ],
+        "description": "Must be required by an DreamService, to ensure that only the system can bind to it."
+    },
+    "BIND_INCALL_SERVICE": {
+        "prefix": [
+            "up-bind_incall_service",
+            "up-bis"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_INCALL_SERVICE\" />"
+        ],
+        "description": "Must be required by a InCallService, to ensure that only the system can bind to it."
+    },
+    "BIND_INPUT_METHOD": {
+        "prefix": [
+            "up-bind_input_method",
+            "up-bim"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_INPUT_METHOD\" />"
+        ],
+        "description": "Must be required by an InputMethodService, to ensure that only the system can bind to it."
+    },
+    "BIND_MIDI_DEVICE_SERVICE": {
+        "prefix": [
+            "up-bind_midi_device_service",
+            "up-bmds"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_MIDI_DEVICE_SERVICE\" />"
+        ],
+        "description": "Must be required by an MidiDeviceService, to ensure that only the system can bind to it."
+    },
+    "BIND_NFC_SERVICE": {
+        "prefix": [
+            "up-bind_nfc_service",
+            "up-bns"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_NFC_SERVICE\" />"
+        ],
+        "description": "Must be required by a HostApduService or OffHostApduService to ensure that only the system can bind to it."
+    },
+    "BIND_NOTIFICATION_LISTENER_SERVICE": {
+        "prefix": [
+            "up-bind_notification_listener_service",
+            "up-bnls"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_NOTIFICATION_LISTENER_SERVICE\" />"
+        ],
+        "description": "Must be required by an NotificationListenerService, to ensure that only the system can bind to it."
+    },
+    "BIND_PRINT_SERVICE": {
+        "prefix": [
+            "up-bind_print_service",
+            "up-bps"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_PRINT_SERVICE\" />"
+        ],
+        "description": "Must be required by a PrintService, to ensure that only the system can bind to it."
+    },
+    "BIND_QUICK_ACCESS_WALLET_SERVICE": {
+        "prefix": [
+            "up-bind_quick_access_wallet_service",
+            "up-bqaws"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_QUICK_ACCESS_WALLET_SERVICE\" />"
+        ],
+        "description": "Must be required by a QuickAccessWalletService to ensure that only the system can bind to it."
+    },
+    "BIND_QUICK_SETTINGS_TILE": {
+        "prefix": [
+            "up-bind_quick_settings_tile",
+            "up-bqst"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_QUICK_SETTINGS_TILE\" />"
+        ],
+        "description": "Allows an application to bind to third party quick settings tiles."
+    },
+    "BIND_REMOTEVIEWS": {
+        "prefix": [
+            "up-bind_remoteviews",
+            "up-br"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_REMOTEVIEWS\" />"
+        ],
+        "description": "Must be required by a RemoteViewsService, to ensure that only the system can bind to it."
+    },
+    "BIND_SCREENING_SERVICE": {
+        "prefix": [
+            "up-bind_screening_service",
+            "up-bss"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_SCREENING_SERVICE\" />"
+        ],
+        "description": "Must be required by a CallScreeningService, to ensure that only the system can bind to it."
+    },
+    "BIND_TELECOM_CONNECTION_SERVICE": {
+        "prefix": [
+            "up-bind_telecom_connection_service",
+            "up-btcs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_TELECOM_CONNECTION_SERVICE\" />"
+        ],
+        "description": "Must be required by a ConnectionService, to ensure that only the system can bind to it."
+    },
+    "BIND_TEXT_SERVICE": {
+        "prefix": [
+            "up-bind_text_service",
+            "up-bts"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_TEXT_SERVICE\" />"
+        ],
+        "description": "Must be required by a TextService (e.g.&nbsp;SpellCheckerService) to ensure that only the system can bind to it."
+    },
+    "BIND_TV_INPUT": {
+        "prefix": [
+            "up-bind_tv_input",
+            "up-bti"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_TV_INPUT\" />"
+        ],
+        "description": "Must be required by a TvInputService to ensure that only the system can bind to it."
+    },
+    "BIND_VISUAL_VOICEMAIL_SERVICE": {
+        "prefix": [
+            "up-bind_visual_voicemail_service",
+            "up-bvvs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_VISUAL_VOICEMAIL_SERVICE\" />"
+        ],
+        "description": "Must be required by a link VisualVoicemailService to ensure that only the system can bind to it."
+    },
+    "BIND_VOICE_INTERACTION": {
+        "prefix": [
+            "up-bind_voice_interaction",
+            "up-bvi"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_VOICE_INTERACTION\" />"
+        ],
+        "description": "Must be required by a VoiceInteractionService, to ensure that only the system can bind to it."
+    },
+    "BIND_VPN_SERVICE": {
+        "prefix": [
+            "up-bind_vpn_service",
+            "up-bvs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_VPN_SERVICE\" />"
+        ],
+        "description": "Must be required by a VpnService, to ensure that only the system can bind to it."
+    },
+    "BIND_VR_LISTENER_SERVICE": {
+        "prefix": [
+            "up-bind_vr_listener_service",
+            "up-bvls"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_VR_LISTENER_SERVICE\" />"
+        ],
+        "description": "Must be required by an VrListenerService, to ensure that only the system can bind to it."
+    },
+    "BIND_WALLPAPER": {
+        "prefix": [
+            "up-bind_wallpaper",
+            "up-bw"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BIND_WALLPAPER\" />"
+        ],
+        "description": "Must be required by a WallpaperService, to ensure that only the system can bind to it."
+    },
+    "BLUETOOTH": {
+        "prefix": [
+            "up-bluetooth",
+            "up-b"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BLUETOOTH\" />"
+        ],
+        "description": "Allows applications to connect to paired bluetooth devices."
+    },
+    "BLUETOOTH_ADMIN": {
+        "prefix": [
+            "up-bluetooth_admin",
+            "up-ba"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BLUETOOTH_ADMIN\" />"
+        ],
+        "description": "Allows applications to discover and pair bluetooth devices."
+    },
+    "BLUETOOTH_ADVERTISE": {
+        "prefix": [
+            "up-bluetooth_advertise",
+            "up-ba"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BLUETOOTH_ADVERTISE\" />"
+        ],
+        "description": "Required to be able to advertise to nearby Bluetooth devices."
+    },
+    "BLUETOOTH_CONNECT": {
+        "prefix": [
+            "up-bluetooth_connect",
+            "up-bc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BLUETOOTH_CONNECT\" />"
+        ],
+        "description": "Required to be able to connect to paired Bluetooth devices."
+    },
+    "BLUETOOTH_PRIVILEGED": {
+        "prefix": [
+            "up-bluetooth_privileged",
+            "up-bp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BLUETOOTH_PRIVILEGED\" />"
+        ],
+        "description": "Allows applications to pair bluetooth devices without user interaction, and to allow or disallow phonebook access or message access."
+    },
+    "BLUETOOTH_SCAN": {
+        "prefix": [
+            "up-bluetooth_scan",
+            "up-bs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BLUETOOTH_SCAN\" />"
+        ],
+        "description": "Required to be able to discover and pair nearby Bluetooth devices."
+    },
+    "BODY_SENSORS": {
+        "prefix": [
+            "up-body_sensors",
+            "up-bs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BODY_SENSORS\" />"
+        ],
+        "description": "Allows an application to access data from sensors that the user uses to measure what is happening inside their body, such as heart rate."
+    },
+    "BODY_SENSORS_BACKGROUND": {
+        "prefix": [
+            "up-body_sensors_background",
+            "up-bsb"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BODY_SENSORS_BACKGROUND\" />"
+        ],
+        "description": "Allows an application to access data from sensors that the user uses to measure what is happening inside their body, such as heart rate."
+    },
+    "BROADCAST_PACKAGE_REMOVED": {
+        "prefix": [
+            "up-broadcast_package_removed",
+            "up-bpr"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BROADCAST_PACKAGE_REMOVED\" />"
+        ],
+        "description": "Allows an application to broadcast a notification that an application package has been removed."
+    },
+    "BROADCAST_SMS": {
+        "prefix": [
+            "up-broadcast_sms",
+            "up-bs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BROADCAST_SMS\" />"
+        ],
+        "description": "Allows an application to broadcast an SMS receipt notification."
+    },
+    "BROADCAST_STICKY": {
+        "prefix": [
+            "up-broadcast_sticky",
+            "up-bs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BROADCAST_STICKY\" />"
+        ],
+        "description": "Allows an application to broadcast sticky intents."
+    },
+    "BROADCAST_WAP_PUSH": {
+        "prefix": [
+            "up-broadcast_wap_push",
+            "up-bwp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.BROADCAST_WAP_PUSH\" />"
+        ],
+        "description": "Allows an application to broadcast a WAP PUSH receipt notification."
+    },
+    "CALL_COMPANION_APP": {
+        "prefix": [
+            "up-call_companion_app",
+            "up-cca"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CALL_COMPANION_APP\" />"
+        ],
+        "description": "Allows an app which implements the InCallService API to be eligible to be enabled as a calling companion app."
+    },
+    "CALL_PHONE": {
+        "prefix": [
+            "up-call_phone",
+            "up-cp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CALL_PHONE\" />"
+        ],
+        "description": "Allows an application to initiate a phone call without going through the Dialer user interface for the user to confirm the call."
+    },
+    "CALL_PRIVILEGED": {
+        "prefix": [
+            "up-call_privileged",
+            "up-cp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CALL_PRIVILEGED\" />"
+        ],
+        "description": "Allows an application to call any phone number, including emergency numbers, without going through the Dialer user interface for the user to confirm the call being placed."
+    },
+    "CAMERA": {
+        "prefix": [
+            "up-camera",
+            "up-c"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CAMERA\" />"
+        ],
+        "description": "Required to be able to access the camera device."
+    },
+    "CAPTURE_AUDIO_OUTPUT": {
+        "prefix": [
+            "up-capture_audio_output",
+            "up-cao"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CAPTURE_AUDIO_OUTPUT\" />"
+        ],
+        "description": "Allows an application to capture audio output."
+    },
+    "CHANGE_COMPONENT_ENABLED_STATE": {
+        "prefix": [
+            "up-change_component_enabled_state",
+            "up-cces"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CHANGE_COMPONENT_ENABLED_STATE\" />"
+        ],
+        "description": "Allows an application to change whether an application component (other than its own) is enabled or not."
+    },
+    "CHANGE_CONFIGURATION": {
+        "prefix": [
+            "up-change_configuration",
+            "up-cc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CHANGE_CONFIGURATION\" />"
+        ],
+        "description": "Allows an application to modify the current configuration, such as locale."
+    },
+    "CHANGE_NETWORK_STATE": {
+        "prefix": [
+            "up-change_network_state",
+            "up-cns"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\" />"
+        ],
+        "description": "Allows applications to change network connectivity state."
+    },
+    "CHANGE_WIFI_MULTICAST_STATE": {
+        "prefix": [
+            "up-change_wifi_multicast_state",
+            "up-cwms"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CHANGE_WIFI_MULTICAST_STATE\" />"
+        ],
+        "description": "Allows applications to enter Wi-Fi Multicast mode."
+    },
+    "CHANGE_WIFI_STATE": {
+        "prefix": [
+            "up-change_wifi_state",
+            "up-cws"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\" />"
+        ],
+        "description": "Allows applications to change Wi-Fi connectivity state."
+    },
+    "CLEAR_APP_CACHE": {
+        "prefix": [
+            "up-clear_app_cache",
+            "up-cac"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CLEAR_APP_CACHE\" />"
+        ],
+        "description": "Allows an application to clear the caches of all installed applications on the device."
+    },
+    "CONTROL_LOCATION_UPDATES": {
+        "prefix": [
+            "up-control_location_updates",
+            "up-clu"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CONTROL_LOCATION_UPDATES\" />"
+        ],
+        "description": "Allows enabling/disabling location update notifications from the radio."
+    },
+    "DELETE_CACHE_FILES": {
+        "prefix": [
+            "up-delete_cache_files",
+            "up-dcf"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.DELETE_CACHE_FILES\" />"
+        ],
+        "description": "Old permission for deleting an app's cache files, no longer used, but signals for us to quietly ignore calls instead of throwing an exception."
+    },
+    "DELETE_PACKAGES": {
+        "prefix": [
+            "up-delete_packages",
+            "up-dp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.DELETE_PACKAGES\" />"
+        ],
+        "description": "Allows an application to delete packages."
+    },
+    "DELIVER_COMPANION_MESSAGES": {
+        "prefix": [
+            "up-deliver_companion_messages",
+            "up-dcm"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.DELIVER_COMPANION_MESSAGES\" />"
+        ],
+        "description": "Allows an application to deliver companion messages to system"
+    },
+    "DIAGNOSTIC": {
+        "prefix": [
+            "up-diagnostic",
+            "up-d"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.DIAGNOSTIC\" />"
+        ],
+        "description": "Allows applications to RW to diagnostic resources."
+    },
+    "DISABLE_KEYGUARD": {
+        "prefix": [
+            "up-disable_keyguard",
+            "up-dk"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.DISABLE_KEYGUARD\" />"
+        ],
+        "description": "Allows applications to disable the keyguard if it is not secure."
+    },
+    "DUMP": {
+        "prefix": [
+            "up-dump",
+            "up-d"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.DUMP\" />"
+        ],
+        "description": "Allows an application to retrieve state dump information from system services."
+    },
+    "EXPAND_STATUS_BAR": {
+        "prefix": [
+            "up-expand_status_bar",
+            "up-esb"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.EXPAND_STATUS_BAR\" />"
+        ],
+        "description": "Allows an application to expand or collapse the status bar."
+    },
+    "FACTORY_TEST": {
+        "prefix": [
+            "up-factory_test",
+            "up-ft"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.FACTORY_TEST\" />"
+        ],
+        "description": "Run as a manufacturer test application, running as the root user."
+    },
+    "FOREGROUND_SERVICE": {
+        "prefix": [
+            "up-foreground_service",
+            "up-fs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.FOREGROUND_SERVICE\" />"
+        ],
+        "description": "Allows a regular application to use Service.startForeground."
+    },
+    "GET_ACCOUNTS": {
+        "prefix": [
+            "up-get_accounts",
+            "up-ga"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />"
+        ],
+        "description": "Allows access to the list of accounts in the Accounts Service."
+    },
+    "GET_ACCOUNTS_PRIVILEGED": {
+        "prefix": [
+            "up-get_accounts_privileged",
+            "up-gap"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.GET_ACCOUNTS_PRIVILEGED\" />"
+        ],
+        "description": "Allows access to the list of accounts in the Accounts Service."
+    },
+    "GET_PACKAGE_SIZE": {
+        "prefix": [
+            "up-get_package_size",
+            "up-gps"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.GET_PACKAGE_SIZE\" />"
+        ],
+        "description": "Allows an application to find out the space used by any package."
+    },
+    "GET_TASKS": {
+        "prefix": [
+            "up-get_tasks",
+            "up-gt"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.GET_TASKS\" />"
+        ],
+        "description": "[DEPRECATED] Deprecated in API level 21. \n\nNo longer enforced."
+    },
+    "GLOBAL_SEARCH": {
+        "prefix": [
+            "up-global_search",
+            "up-gs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.GLOBAL_SEARCH\" />"
+        ],
+        "description": "This permission can be used on content providers to allow the global search system to access their data."
+    },
+    "HIDE_OVERLAY_WINDOWS": {
+        "prefix": [
+            "up-hide_overlay_windows",
+            "up-how"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.HIDE_OVERLAY_WINDOWS\" />"
+        ],
+        "description": "Allows an app to prevent non-system-overlay windows from being drawn on top of it"
+    },
+    "HIGH_SAMPLING_RATE_SENSORS": {
+        "prefix": [
+            "up-high_sampling_rate_sensors",
+            "up-hsrs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.HIGH_SAMPLING_RATE_SENSORS\" />"
+        ],
+        "description": "Allows an app to access sensor data with a sampling rate greater than 200 Hz."
+    },
+    "INSTALL_LOCATION_PROVIDER": {
+        "prefix": [
+            "up-install_location_provider",
+            "up-ilp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.INSTALL_LOCATION_PROVIDER\" />"
+        ],
+        "description": "Allows an application to install a location provider into the Location Manager."
+    },
+    "INSTALL_PACKAGES": {
+        "prefix": [
+            "up-install_packages",
+            "up-ip"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.INSTALL_PACKAGES\" />"
+        ],
+        "description": "Allows an application to install packages."
+    },
+    "INSTALL_SHORTCUT": {
+        "prefix": [
+            "up-install_shortcut",
+            "up-is"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.INSTALL_SHORTCUT\" />"
+        ],
+        "description": "Allows an application to install a shortcut in Launcher."
+    },
+    "INSTANT_APP_FOREGROUND_SERVICE": {
+        "prefix": [
+            "up-instant_app_foreground_service",
+            "up-iafs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.INSTANT_APP_FOREGROUND_SERVICE\" />"
+        ],
+        "description": "Allows an instant app to create foreground services."
+    },
+    "INTERACT_ACROSS_PROFILES": {
+        "prefix": [
+            "up-interact_across_profiles",
+            "up-iap"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.INTERACT_ACROSS_PROFILES\" />"
+        ],
+        "description": "Allows interaction across profiles in the same profile group."
+    },
+    "INTERNET": {
+        "prefix": [
+            "up-internet",
+            "up-i"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.INTERNET\" />"
+        ],
+        "description": "Allows applications to open network sockets."
+    },
+    "KILL_BACKGROUND_PROCESSES": {
+        "prefix": [
+            "up-kill_background_processes",
+            "up-kbp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.KILL_BACKGROUND_PROCESSES\" />"
+        ],
+        "description": "Allows an application to call ActivityManager.killBackgroundProcesses(String)."
+    },
+    "LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK": {
+        "prefix": [
+            "up-launch_multi_pane_settings_deep_link",
+            "up-lmpsdl"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK\" />"
+        ],
+        "description": "An application needs this permission for Settings.ACTION_SETTINGS_EMBED_DEEP_LINK_ACTIVITY to show its Activity embedded in Settings app."
+    },
+    "LOADER_USAGE_STATS": {
+        "prefix": [
+            "up-loader_usage_stats",
+            "up-lus"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.LOADER_USAGE_STATS\" />"
+        ],
+        "description": "Allows a data loader to read a package's access logs."
+    },
+    "LOCATION_HARDWARE": {
+        "prefix": [
+            "up-location_hardware",
+            "up-lh"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.LOCATION_HARDWARE\" />"
+        ],
+        "description": "Allows an application to use location features in hardware, such as the geofencing api."
+    },
+    "MANAGE_DOCUMENTS": {
+        "prefix": [
+            "up-manage_documents",
+            "up-md"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.MANAGE_DOCUMENTS\" />"
+        ],
+        "description": "Allows an application to manage access to documents, usually as part of a document picker."
+    },
+    "MANAGE_EXTERNAL_STORAGE": {
+        "prefix": [
+            "up-manage_external_storage",
+            "up-mes"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.MANAGE_EXTERNAL_STORAGE\" />"
+        ],
+        "description": "Allows an application a broad access to external storage in scoped storage."
+    },
+    "MANAGE_MEDIA": {
+        "prefix": [
+            "up-manage_media",
+            "up-mm"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.MANAGE_MEDIA\" />"
+        ],
+        "description": "Allows an application to modify and delete media files on this device or any connected storage device without user confirmation."
+    },
+    "MANAGE_ONGOING_CALLS": {
+        "prefix": [
+            "up-manage_ongoing_calls",
+            "up-moc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.MANAGE_ONGOING_CALLS\" />"
+        ],
+        "description": "Allows to query ongoing call details and manage ongoing calls."
+    },
+    "MANAGE_OWN_CALLS": {
+        "prefix": [
+            "up-manage_own_calls",
+            "up-moc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.MANAGE_OWN_CALLS\" />"
+        ],
+        "description": "Allows a calling application which manages its own calls through the self-managed ConnectionService APIs."
+    },
+    "MASTER_CLEAR": {
+        "prefix": [
+            "up-master_clear",
+            "up-mc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.MASTER_CLEAR\" />"
+        ],
+        "description": "Not for use by third-party applications."
+    },
+    "MEDIA_CONTENT_CONTROL": {
+        "prefix": [
+            "up-media_content_control",
+            "up-mcc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.MEDIA_CONTENT_CONTROL\" />"
+        ],
+        "description": "Allows an application to know what content is playing and control its playback."
+    },
+    "MODIFY_AUDIO_SETTINGS": {
+        "prefix": [
+            "up-modify_audio_settings",
+            "up-mas"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\" />"
+        ],
+        "description": "Allows an application to modify global audio settings."
+    },
+    "MODIFY_PHONE_STATE": {
+        "prefix": [
+            "up-modify_phone_state",
+            "up-mps"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.MODIFY_PHONE_STATE\" />"
+        ],
+        "description": "Allows modification of the telephony state - power on, mmi, etc."
+    },
+    "MOUNT_FORMAT_FILESYSTEMS": {
+        "prefix": [
+            "up-mount_format_filesystems",
+            "up-mff"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.MOUNT_FORMAT_FILESYSTEMS\" />"
+        ],
+        "description": "Allows formatting file systems for removable storage."
+    },
+    "MOUNT_UNMOUNT_FILESYSTEMS": {
+        "prefix": [
+            "up-mount_unmount_filesystems",
+            "up-muf"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\" />"
+        ],
+        "description": "Allows mounting and unmounting file systems for removable storage."
+    },
+    "NEARBY_WIFI_DEVICES": {
+        "prefix": [
+            "up-nearby_wifi_devices",
+            "up-nwd"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.NEARBY_WIFI_DEVICES\" />"
+        ],
+        "description": "Required to be able to advertise and connect to nearby devices via Wi-Fi."
+    },
+    "NFC": {
+        "prefix": [
+            "up-nfc",
+            "up-n"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.NFC\" />"
+        ],
+        "description": "Allows applications to perform I/O operations over NFC."
+    },
+    "NFC_PREFERRED_PAYMENT_INFO": {
+        "prefix": [
+            "up-nfc_preferred_payment_info",
+            "up-nppi"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.NFC_PREFERRED_PAYMENT_INFO\" />"
+        ],
+        "description": "Allows applications to receive NFC preferred payment service information."
+    },
+    "NFC_TRANSACTION_EVENT": {
+        "prefix": [
+            "up-nfc_transaction_event",
+            "up-nte"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.NFC_TRANSACTION_EVENT\" />"
+        ],
+        "description": "Allows applications to receive NFC transaction events."
+    },
+    "PACKAGE_USAGE_STATS": {
+        "prefix": [
+            "up-package_usage_stats",
+            "up-pus"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.PACKAGE_USAGE_STATS\" />"
+        ],
+        "description": "Allows an application to collect component usage statistics\nDeclaring the permission implies intention to use the API and the user of the device can grant permission through the Settings application."
+    },
+    "PERSISTENT_ACTIVITY": {
+        "prefix": [
+            "up-persistent_activity",
+            "up-pa"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.PERSISTENT_ACTIVITY\" />"
+        ],
+        "description": "[DEPRECATED] Deprecated in API level 15. \n\nThis functionality will be removed in the future; please do not use. \nAllow an application to make its activities persistent."
+    },
+    "POST_NOTIFICATIONS": {
+        "prefix": [
+            "up-post_notifications",
+            "up-pn"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.POST_NOTIFICATIONS\" />"
+        ],
+        "description": "Allows an app to post notifications."
+    },
+    "PROCESS_OUTGOING_CALLS": {
+        "prefix": [
+            "up-process_outgoing_calls",
+            "up-poc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.PROCESS_OUTGOING_CALLS\" />"
+        ],
+        "description": "[DEPRECATED] Deprecated in API level 29. \n\nApplications should use CallRedirectionService instead of the Intent.ACTION_NEW_OUTGOING_CALL broadcast."
+    },
+    "QUERY_ALL_PACKAGES": {
+        "prefix": [
+            "up-query_all_packages",
+            "up-qap"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.QUERY_ALL_PACKAGES\" />"
+        ],
+        "description": "Allows query of any normal app on the device, regardless of manifest declarations."
+    },
+    "READ_BASIC_PHONE_STATE": {
+        "prefix": [
+            "up-read_basic_phone_state",
+            "up-rbps"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_BASIC_PHONE_STATE\" />"
+        ],
+        "description": "Allows read only access to phone state with a non dangerous permission, including the information like cellular network type, software version."
+    },
+    "READ_CALENDAR": {
+        "prefix": [
+            "up-read_calendar",
+            "up-rc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_CALENDAR\" />"
+        ],
+        "description": "Allows an application to read the user's calendar data."
+    },
+    "READ_CALL_LOG": {
+        "prefix": [
+            "up-read_call_log",
+            "up-rcl"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_CALL_LOG\" />"
+        ],
+        "description": "Allows an application to read the user's call log."
+    },
+    "READ_CONTACTS": {
+        "prefix": [
+            "up-read_contacts",
+            "up-rc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_CONTACTS\" />"
+        ],
+        "description": "Allows an application to read the user's contacts data."
+    },
+    "READ_EXTERNAL_STORAGE": {
+        "prefix": [
+            "up-read_external_storage",
+            "up-res"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />"
+        ],
+        "description": "Allows an application to read from external storage."
+    },
+    "READ_INPUT_STATE": {
+        "prefix": [
+            "up-read_input_state",
+            "up-ris"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_INPUT_STATE\" />"
+        ],
+        "description": "[DEPRECATED] deprecated in API level 16.\n\n The API that used this permission has been removed."
+    },
+    "READ_LOGS": {
+        "prefix": [
+            "up-read_logs",
+            "up-rl"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_LOGS\" />"
+        ],
+        "description": "Allows an application to read the low-level system log files."
+    },
+    "READ_NEARBY_STREAMING_POLICY": {
+        "prefix": [
+            "up-read_nearby_streaming_policy",
+            "up-rnsp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_NEARBY_STREAMING_POLICY\" />"
+        ],
+        "description": "Allows an application to read nearby streaming policy."
+    },
+    "READ_PHONE_NUMBERS": {
+        "prefix": [
+            "up-read_phone_numbers",
+            "up-rpn"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_PHONE_NUMBERS\" />"
+        ],
+        "description": "Allows read access to the device's phone number(s)."
+    },
+    "READ_PHONE_STATE": {
+        "prefix": [
+            "up-read_phone_state",
+            "up-rps"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\" />"
+        ],
+        "description": "Allows read only access to phone state, including the current cellular network information, the status of any ongoing calls, and a list of any PhoneAccounts registered on the device."
+    },
+    "READ_PRECISE_PHONE_STATE": {
+        "prefix": [
+            "up-read_precise_phone_state",
+            "up-rpps"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_PRECISE_PHONE_STATE\" />"
+        ],
+        "description": "Allows read only access to precise phone state."
+    },
+    "READ_SMS": {
+        "prefix": [
+            "up-read_sms",
+            "up-rs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_SMS\" />"
+        ],
+        "description": "Allows an application to read SMS messages."
+    },
+    "READ_SYNC_SETTINGS": {
+        "prefix": [
+            "up-read_sync_settings",
+            "up-rss"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_SYNC_SETTINGS\" />"
+        ],
+        "description": "Allows applications to read the sync settings."
+    },
+    "READ_SYNC_STATS": {
+        "prefix": [
+            "up-read_sync_stats",
+            "up-rss"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_SYNC_STATS\" />"
+        ],
+        "description": "Allows applications to read the sync stats."
+    },
+    "READ_VOICEMAIL": {
+        "prefix": [
+            "up-read_voicemail",
+            "up-rv"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.READ_VOICEMAIL\" />"
+        ],
+        "description": "Allows an application to read voicemails in the system."
+    },
+    "REBOOT": {
+        "prefix": [
+            "up-reboot",
+            "up-r"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.REBOOT\" />"
+        ],
+        "description": "Required to be able to reboot the device."
+    },
+    "RECEIVE_BOOT_COMPLETED": {
+        "prefix": [
+            "up-receive_boot_completed",
+            "up-rbc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />"
+        ],
+        "description": "Allows an application to receive the Intent.ACTION_BOOT_COMPLETED that is broadcast after the system finishes booting."
+    },
+    "RECEIVE_MMS": {
+        "prefix": [
+            "up-receive_mms",
+            "up-rm"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.RECEIVE_MMS\" />"
+        ],
+        "description": "Allows an application to monitor incoming MMS messages."
+    },
+    "RECEIVE_SMS": {
+        "prefix": [
+            "up-receive_sms",
+            "up-rs"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.RECEIVE_SMS\" />"
+        ],
+        "description": "Allows an application to receive SMS messages."
+    },
+    "RECEIVE_WAP_PUSH": {
+        "prefix": [
+            "up-receive_wap_push",
+            "up-rwp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.RECEIVE_WAP_PUSH\" />"
+        ],
+        "description": "Allows an application to receive WAP push messages."
+    },
+    "RECORD_AUDIO": {
+        "prefix": [
+            "up-record_audio",
+            "up-ra"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />"
+        ],
+        "description": "Allows an application to record audio."
+    },
+    "REORDER_TASKS": {
+        "prefix": [
+            "up-reorder_tasks",
+            "up-rt"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.REORDER_TASKS\" />"
+        ],
+        "description": "Allows an application to change the Z-order of tasks."
+    },
+    "CompanionDeviceManager": {
+        "prefix": [
+            "up-companiondevicemanager",
+            "up-c"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.CompanionDeviceManager\" />"
+        ],
+        "description": "Protection level: normal"
+    },
+    "REQUEST_COMPANION_RUN_IN_BACKGROUND": {
+        "prefix": [
+            "up-request_companion_run_in_background",
+            "up-rcrib"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND\" />"
+        ],
+        "description": "Allows a companion app to run in the background."
+    },
+    "REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND": {
+        "prefix": [
+            "up-request_companion_start_foreground_services_from_background",
+            "up-rcsfsfb"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND\" />"
+        ],
+        "description": "Allows a companion app to start a foreground service from the background."
+    },
+    "REQUEST_COMPANION_USE_DATA_IN_BACKGROUND": {
+        "prefix": [
+            "up-request_companion_use_data_in_background",
+            "up-rcudib"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND\" />"
+        ],
+        "description": "Allows a companion app to use data in the background."
+    },
+    "REQUEST_DELETE_PACKAGES": {
+        "prefix": [
+            "up-request_delete_packages",
+            "up-rdp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.REQUEST_DELETE_PACKAGES\" />"
+        ],
+        "description": "Allows an application to request deleting packages."
+    },
+    "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS": {
+        "prefix": [
+            "up-request_ignore_battery_optimizations",
+            "up-ribo"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS\" />"
+        ],
+        "description": "Permission an application must hold in order to use Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS."
+    },
+    "REQUEST_INSTALL_PACKAGES": {
+        "prefix": [
+            "up-request_install_packages",
+            "up-rip"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\" />"
+        ],
+        "description": "Allows an application to request installing packages."
+    },
+    "REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE": {
+        "prefix": [
+            "up-request_observe_companion_device_presence",
+            "up-rocdp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE\" />"
+        ],
+        "description": "Allows an application to subscribe to notifications about the presence status change of their associated companion device"
+    },
+    "REQUEST_PASSWORD_COMPLEXITY": {
+        "prefix": [
+            "up-request_password_complexity",
+            "up-rpc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.REQUEST_PASSWORD_COMPLEXITY\" />"
+        ],
+        "description": "Allows an application to request the screen lock complexity and prompt users to update the screen lock to a certain complexity level."
+    },
+    "RESTART_PACKAGES": {
+        "prefix": [
+            "up-restart_packages",
+            "up-rp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.RESTART_PACKAGES\" />"
+        ],
+        "description": "[DEPRECATED] Deprecated in API level 15. \n\nThe ActivityManager.restartPackage(String) API is no longer supported."
+    },
+    "SCHEDULE_EXACT_ALARM": {
+        "prefix": [
+            "up-schedule_exact_alarm",
+            "up-sea"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SCHEDULE_EXACT_ALARM\" />"
+        ],
+        "description": "Allows applications to use exact alarm APIs."
+    },
+    "SEND_RESPOND_VIA_MESSAGE": {
+        "prefix": [
+            "up-send_respond_via_message",
+            "up-srvm"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SEND_RESPOND_VIA_MESSAGE\" />"
+        ],
+        "description": "Allows an application (Phone) to send a request to other applications to handle the respond-via-message action during incoming calls."
+    },
+    "SEND_SMS": {
+        "prefix": [
+            "up-send_sms",
+            "up-ss"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SEND_SMS\" />"
+        ],
+        "description": "Allows an application to send SMS messages."
+    },
+    "SET_ALARM": {
+        "prefix": [
+            "up-set_alarm",
+            "up-sa"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SET_ALARM\" />"
+        ],
+        "description": "Allows an application to broadcast an Intent to set an alarm for the user."
+    },
+    "SET_ALWAYS_FINISH": {
+        "prefix": [
+            "up-set_always_finish",
+            "up-saf"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SET_ALWAYS_FINISH\" />"
+        ],
+        "description": "Allows an application to control whether activities are immediately finished when put in the background."
+    },
+    "SET_ANIMATION_SCALE": {
+        "prefix": [
+            "up-set_animation_scale",
+            "up-sas"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SET_ANIMATION_SCALE\" />"
+        ],
+        "description": "Modify the global animation scaling factor."
+    },
+    "SET_DEBUG_APP": {
+        "prefix": [
+            "up-set_debug_app",
+            "up-sda"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SET_DEBUG_APP\" />"
+        ],
+        "description": "Configure an application for debugging."
+    },
+    "SET_PREFERRED_APPLICATIONS": {
+        "prefix": [
+            "up-set_preferred_applications",
+            "up-spa"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SET_PREFERRED_APPLICATIONS\" />"
+        ],
+        "description": "[DEPRECATED] Deprecated in API level 15. \n\nNo longer useful, see https://developer.android.com/reference/android/content/pm/PackageManager#addPackageToPreferred(java.lang.String) for details."
+    },
+    "SET_PROCESS_LIMIT": {
+        "prefix": [
+            "up-set_process_limit",
+            "up-spl"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SET_PROCESS_LIMIT\" />"
+        ],
+        "description": "Allows an application to set the maximum number of (not needed) application processes that can be running."
+    },
+    "SET_TIME": {
+        "prefix": [
+            "up-set_time",
+            "up-st"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SET_TIME\" />"
+        ],
+        "description": "Allows applications to set the system time directly."
+    },
+    "SET_TIME_ZONE": {
+        "prefix": [
+            "up-set_time_zone",
+            "up-stz"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SET_TIME_ZONE\" />"
+        ],
+        "description": "Allows applications to set the system time zone directly."
+    },
+    "SET_WALLPAPER": {
+        "prefix": [
+            "up-set_wallpaper",
+            "up-sw"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SET_WALLPAPER\" />"
+        ],
+        "description": "Allows applications to set the wallpaper."
+    },
+    "SET_WALLPAPER_HINTS": {
+        "prefix": [
+            "up-set_wallpaper_hints",
+            "up-swh"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SET_WALLPAPER_HINTS\" />"
+        ],
+        "description": "Allows applications to set the wallpaper hints."
+    },
+    "SIGNAL_PERSISTENT_PROCESSES": {
+        "prefix": [
+            "up-signal_persistent_processes",
+            "up-spp"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SIGNAL_PERSISTENT_PROCESSES\" />"
+        ],
+        "description": "Allow an application to request that a signal be sent to all persistent processes."
+    },
+    "SMS_FINANCIAL_TRANSACTIONS": {
+        "prefix": [
+            "up-sms_financial_transactions",
+            "up-sft"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SMS_FINANCIAL_TRANSACTIONS\" />"
+        ],
+        "description": "[DEPRECATED] Deprecated in API level 31. \nThe API that used this permission is no longer functional."
+    },
+    "START_FOREGROUND_SERVICES_FROM_BACKGROUND": {
+        "prefix": [
+            "up-start_foreground_services_from_background",
+            "up-sfsfb"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND\" />"
+        ],
+        "description": "Allows an application to start foreground services from the background at any time."
+    },
+    "START_VIEW_APP_FEATURES": {
+        "prefix": [
+            "up-start_view_app_features",
+            "up-svaf"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.START_VIEW_APP_FEATURES\" />"
+        ],
+        "description": "Allows the holder to start the screen with a list of app features."
+    },
+    "START_VIEW_PERMISSION_USAGE": {
+        "prefix": [
+            "up-start_view_permission_usage",
+            "up-svpu"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.START_VIEW_PERMISSION_USAGE\" />"
+        ],
+        "description": "Allows the holder to start the permission usage screen for an app."
+    },
+    "STATUS_BAR": {
+        "prefix": [
+            "up-status_bar",
+            "up-sb"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.STATUS_BAR\" />"
+        ],
+        "description": "Allows an application to open, close, or disable the status bar and its icons."
+    },
+    "SYSTEM_ALERT_WINDOW": {
+        "prefix": [
+            "up-system_alert_window",
+            "up-saw"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />"
+        ],
+        "description": "Allows an app to create windows using the type WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY, shown on top of all other apps."
+    },
+    "TRANSMIT_IR": {
+        "prefix": [
+            "up-transmit_ir",
+            "up-ti"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.TRANSMIT_IR\" />"
+        ],
+        "description": "Allows using the device's IR transmitter, if available."
+    },
+    "UNINSTALL_SHORTCUT": {
+        "prefix": [
+            "up-uninstall_shortcut",
+            "up-us"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.UNINSTALL_SHORTCUT\" />"
+        ],
+        "description": "Don't use this permission in your app."
+    },
+    "UPDATE_DEVICE_STATS": {
+        "prefix": [
+            "up-update_device_stats",
+            "up-uds"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.UPDATE_DEVICE_STATS\" />"
+        ],
+        "description": "Allows an application to update device statistics."
+    },
+    "UPDATE_PACKAGES_WITHOUT_USER_ACTION": {
+        "prefix": [
+            "up-update_packages_without_user_action",
+            "up-upwua"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION\" />"
+        ],
+        "description": "Allows an application to indicate via PackageInstaller.SessionParams.setRequireUserAction(int) that user action should not be required for an app update."
+    },
+    "USE_BIOMETRIC": {
+        "prefix": [
+            "up-use_biometric",
+            "up-ub"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.USE_BIOMETRIC\" />"
+        ],
+        "description": "Allows an app to use device supported biometric modalities."
+    },
+    "USE_FINGERPRINT": {
+        "prefix": [
+            "up-use_fingerprint",
+            "up-uf"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.USE_FINGERPRINT\" />"
+        ],
+        "description": "[DEPRECATED] Deprecated on API level 28.\n\nINFO: https://developer.android.com/reference/android/Manifest.permission#USE_BIOMETRIC \nUse \"USE_BIOMETRIC\" instead."
+    },
+    "USE_FULL_SCREEN_INTENT": {
+        "prefix": [
+            "up-use_full_screen_intent",
+            "up-ufsi"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.USE_FULL_SCREEN_INTENT\" />"
+        ],
+        "description": "Required for apps targeting Build.VERSION_CODES.Q that want to use notification full screen intents."
+    },
+    "USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER": {
+        "prefix": [
+            "up-use_icc_auth_with_device_identifier",
+            "up-uiawdi"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER\" />"
+        ],
+        "description": "Allows to read device identifiers and use ICC based authentication like EAP-AKA."
+    },
+    "USE_SIP": {
+        "prefix": [
+            "up-use_sip",
+            "up-us"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.USE_SIP\" />"
+        ],
+        "description": "Allows an application to use SIP service."
+    },
+    "UWB_RANGING": {
+        "prefix": [
+            "up-uwb_ranging",
+            "up-ur"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.UWB_RANGING\" />"
+        ],
+        "description": "Required to be able to range to devices using ultra-wideband."
+    },
+    "VIBRATE": {
+        "prefix": [
+            "up-vibrate",
+            "up-v"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.VIBRATE\" />"
+        ],
+        "description": "Allows access to the vibrator."
+    },
+    "WAKE_LOCK": {
+        "prefix": [
+            "up-wake_lock",
+            "up-wl"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.WAKE_LOCK\" />"
+        ],
+        "description": "Allows using PowerManager WakeLocks to keep processor from sleeping or screen from dimming."
+    },
+    "WRITE_APN_SETTINGS": {
+        "prefix": [
+            "up-write_apn_settings",
+            "up-was"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.WRITE_APN_SETTINGS\" />"
+        ],
+        "description": "Allows applications to write the apn settings and read sensitive fields of an existing apn settings like user and password."
+    },
+    "WRITE_CALENDAR": {
+        "prefix": [
+            "up-write_calendar",
+            "up-wc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.WRITE_CALENDAR\" />"
+        ],
+        "description": "Allows an application to write the user's calendar data."
+    },
+    "WRITE_CALL_LOG": {
+        "prefix": [
+            "up-write_call_log",
+            "up-wcl"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.WRITE_CALL_LOG\" />"
+        ],
+        "description": "Allows an application to write (but not read) the user's call log data."
+    },
+    "WRITE_CONTACTS": {
+        "prefix": [
+            "up-write_contacts",
+            "up-wc"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" />"
+        ],
+        "description": "Allows an application to write the user's contacts data."
+    },
+    "WRITE_EXTERNAL_STORAGE": {
+        "prefix": [
+            "up-write_external_storage",
+            "up-wes"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />"
+        ],
+        "description": "Allows an application to write to external storage."
+    },
+    "WRITE_GSERVICES": {
+        "prefix": [
+            "up-write_gservices",
+            "up-wg"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.WRITE_GSERVICES\" />"
+        ],
+        "description": "Allows an application to modify the Google service map."
+    },
+    "WRITE_SECURE_SETTINGS": {
+        "prefix": [
+            "up-write_secure_settings",
+            "up-wss"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.WRITE_SECURE_SETTINGS\" />"
+        ],
+        "description": "Allows an application to read or write the secure system settings."
+    },
+    "WRITE_SETTINGS": {
+        "prefix": [
+            "up-write_settings",
+            "up-ws"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\" />"
+        ],
+        "description": "Allows an application to read or write the system settings."
+    },
+    "WRITE_SYNC_SETTINGS": {
+        "prefix": [
+            "up-write_sync_settings",
+            "up-wss"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.WRITE_SYNC_SETTINGS\" />"
+        ],
+        "description": "Allows applications to write the sync settings."
+    },
+    "WRITE_VOICEMAIL": {
+        "prefix": [
+            "up-write_voicemail",
+            "up-wv"
+        ],
+        "body": [
+            "<uses-permission android:name=\"android.permission.WRITE_VOICEMAIL\" />"
+        ],
+        "description": "Allows an application to modify and remove existing voicemails in the system."
+    }
+}
