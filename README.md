@@ -2,7 +2,7 @@
 
 This is the **"android-manifest-snippets"** extension. 
   
-![Example Animation](./images/android-manifest-extension.gif)
+![Example Animation](images/android-manifest-extension.gif)
 
 This extension will help you to write AndroidManifest.xml with snippets for:
 - Creation of **AndroidManifest** structure.
