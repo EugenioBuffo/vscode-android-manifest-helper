@@ -2667,5 +2667,305 @@
             "<uses-feature android:name=\"android.software.live_wallpaper\" />"
         ],
         "description": "The app uses or provides wallpapers that include animation."
+    },
+    "android.permission-group.ACCOUNTS": {
+        "prefix": [
+            "permission-group-android.permission-group.ACCOUNTS",
+            "pg-apA"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.ACCOUNTS\"/>"
+        ],
+        "description": "Permissions for direct access to the accounts managed by the Account Manager. "
+    },
+    "android.permission-group.AFFECTS_BATTERY": {
+        "prefix": [
+            "permission-group-android.permission-group.AFFECTS_BATTERY",
+            "pg-apAB"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.AFFECTS_BATTERY\"/>"
+        ],
+        "description": "Used for permissions that provide direct access to the hardware on the device that has an effect on battery life.  This includes vibrator, flashlight,  etc. "
+    },
+    "android.permission-group.APP_INFO": {
+        "prefix": [
+            "permission-group-android.permission-group.APP_INFO",
+            "pg-apAI"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.APP_INFO\"/>"
+        ],
+        "description": "Group of permissions that are related to the other applications installed on the system.  Examples include such as listing running apps, or killing background processes. "
+    },
+    "android.permission-group.AUDIO_SETTINGS": {
+        "prefix": [
+            "permission-group-android.permission-group.AUDIO_SETTINGS",
+            "pg-apAS"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.AUDIO_SETTINGS\"/>"
+        ],
+        "description": "Used for permissions that provide direct access to speaker settings the device. "
+    },
+    "android.permission-group.BLUETOOTH_NETWORK": {
+        "prefix": [
+            "permission-group-android.permission-group.BLUETOOTH_NETWORK",
+            "pg-apBN"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.BLUETOOTH_NETWORK\"/>"
+        ],
+        "description": "Used for permissions that provide access to other devices through Bluetooth."
+    },
+    "android.permission-group.BOOKMARKS": {
+        "prefix": [
+            "permission-group-android.permission-group.BOOKMARKS",
+            "pg-apB"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.BOOKMARKS\"/>"
+        ],
+        "description": "Used for permissions that provide access to the user bookmarks and browser history."
+    },
+    "android.permission-group.CALENDAR": {
+        "prefix": [
+            "permission-group-android.permission-group.CALENDAR",
+            "pg-apC"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.CALENDAR\"/>"
+        ],
+        "description": "Used for permissions that provide access to the device calendar to create / view events."
+    },
+    "android.permission-group.CAMERA": {
+        "prefix": [
+            "permission-group-android.permission-group.CAMERA",
+            "pg-apC"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.CAMERA\"/>"
+        ],
+        "description": "Used for permissions that are associated with accessing camera or capturing images/video from the device. "
+    },
+    "android.permission-group.COST_MONEY": {
+        "prefix": [
+            "permission-group-android.permission-group.COST_MONEY",
+            "pg-apCM"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.COST_MONEY\"/>"
+        ],
+        "description": "Used for permissions that can be used to make the user spend money without their direct involvement. "
+    },
+    "android.permission-group.DEVELOPMENT_TOOLS": {
+        "prefix": [
+            "permission-group-android.permission-group.DEVELOPMENT_TOOLS",
+            "pg-apDT"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.DEVELOPMENT_TOOLS\"/>"
+        ],
+        "description": "Group of permissions that are related to development features.  These are not permissions that should appear in normal applications; they protect APIs that are intended only to be used for development purposes. "
+    },
+    "android.permission-group.DEVICE_ALARMS": {
+        "prefix": [
+            "permission-group-android.permission-group.DEVICE_ALARMS",
+            "pg-apDA"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.DEVICE_ALARMS\"/>"
+        ],
+        "description": "Used for permissions that provide access to the user voicemail box. "
+    },
+    "android.permission-group.DISPLAY": {
+        "prefix": [
+            "permission-group-android.permission-group.DISPLAY",
+            "pg-apD"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.DISPLAY\"/>"
+        ],
+        "description": "Group of permissions that allow manipulation of how another application displays UI to the user. "
+    },
+    "android.permission-group.HARDWARE_CONTROLS": {
+        "prefix": [
+            "permission-group-android.permission-group.HARDWARE_CONTROLS",
+            "pg-apHC"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.HARDWARE_CONTROLS\"/>"
+        ],
+        "description": "Used for permissions that provide direct access to the hardware on the device.  This includes audio, the camera, vibrator, etc. "
+    },
+    "android.permission-group.LOCATION": {
+        "prefix": [
+            "permission-group-android.permission-group.LOCATION",
+            "pg-apL"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.LOCATION\"/>"
+        ],
+        "description": "Used for permissions that allow access to the user's current location. "
+    },
+    "android.permission-group.MESSAGES": {
+        "prefix": [
+            "permission-group-android.permission-group.MESSAGES",
+            "pg-apM"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.MESSAGES\"/>"
+        ],
+        "description": "Used for permissions that allow an application to send messages on behalf of the user or intercept messages being received by the user.  This is primarily intended for SMS/MMS messaging, such as receiving or reading an MMS. "
+    },
+    "android.permission-group.MICROPHONE": {
+        "prefix": [
+            "permission-group-android.permission-group.MICROPHONE",
+            "pg-apM"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.MICROPHONE\"/>"
+        ],
+        "description": "Used for permissions that are associated with accessing microphone audio from the device. Note that phone calls also capture audio but are in a separate (more visible) permission group. "
+    },
+    "android.permission-group.NETWORK": {
+        "prefix": [
+            "permission-group-android.permission-group.NETWORK",
+            "pg-apN"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.NETWORK\"/>"
+        ],
+        "description": "Used for permissions that provide access to networking services.  The main permission here is internet access, but this is also an appropriate group for accessing or modifying any network configuration or other related network operations. "
+    },
+    "android.permission-group.PERSONAL_INFO": {
+        "prefix": [
+            "permission-group-android.permission-group.PERSONAL_INFO",
+            "pg-apPI"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.PERSONAL_INFO\"/>"
+        ],
+        "description": "Used for permissions that provide access to information about the device user such as profile information.  This includes both reading and writing of this data (which should generally be expressed as two distinct permissions). "
+    },
+    "android.permission-group.PHONE_CALLS": {
+        "prefix": [
+            "permission-group-android.permission-group.PHONE_CALLS",
+            "pg-apPC"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.PHONE_CALLS\"/>"
+        ],
+        "description": "Used for permissions that are associated with accessing and modifyign telephony state: placing calls, intercepting outgoing calls, reading and modifying the phone state. "
+    },
+    "android.permission-group.SCREENLOCK": {
+        "prefix": [
+            "permission-group-android.permission-group.SCREENLOCK",
+            "pg-apS"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.SCREENLOCK\"/>"
+        ],
+        "description": "Group of permissions that are related to the screenlock. "
+    },
+    "android.permission-group.SOCIAL_INFO": {
+        "prefix": [
+            "permission-group-android.permission-group.SOCIAL_INFO",
+            "pg-apSI"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.SOCIAL_INFO\"/>"
+        ],
+        "description": "Used for permissions that provide access to the user's social connections, such as contacts, call logs, social stream, etc.  This includes both reading and writing of this data (which should generally be expressed as two distinct permissions). "
+    },
+    "android.permission-group.STATUS_BAR": {
+        "prefix": [
+            "permission-group-android.permission-group.STATUS_BAR",
+            "pg-apSB"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.STATUS_BAR\"/>"
+        ],
+        "description": "Used for permissions that change the status bar "
+    },
+    "android.permission-group.STORAGE": {
+        "prefix": [
+            "permission-group-android.permission-group.STORAGE",
+            "pg-apS"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.STORAGE\"/>"
+        ],
+        "description": "Group of permissions that are related to SD card access. "
+    },
+    "android.permission-group.SYNC_SETTINGS": {
+        "prefix": [
+            "permission-group-android.permission-group.SYNC_SETTINGS",
+            "pg-apSS"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.SYNC_SETTINGS\"/>"
+        ],
+        "description": "Used for permissions that access the sync settings or sync related information. "
+    },
+    "android.permission-group.SYSTEM_CLOCK": {
+        "prefix": [
+            "permission-group-android.permission-group.SYSTEM_CLOCK",
+            "pg-apSC"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.SYSTEM_CLOCK\"/>"
+        ],
+        "description": "Group of permissions that are related to system clock. "
+    },
+    "android.permission-group.SYSTEM_TOOLS": {
+        "prefix": [
+            "permission-group-android.permission-group.SYSTEM_TOOLS",
+            "pg-apST"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.SYSTEM_TOOLS\"/>"
+        ],
+        "description": "Group of permissions that are related to system APIs.  Many of these are not permissions the user will be expected to understand, and such permissions should generally be marked as \"normal\" protection level so they don't get displayed.  This can also, however, be used for miscellaneous features that provide access to the operating system, such as writing the global system settings. "
+    },
+    "android.permission-group.USER_DICTIONARY": {
+        "prefix": [
+            "permission-group-android.permission-group.USER_DICTIONARY",
+            "pg-apUD"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.USER_DICTIONARY\"/>"
+        ],
+        "description": "Used for permissions that provide access to the user calendar to create / view events."
+    },
+    "android.permission-group.VOICEMAIL": {
+        "prefix": [
+            "permission-group-android.permission-group.VOICEMAIL",
+            "pg-apV"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.VOICEMAIL\"/>"
+        ],
+        "description": "Used for permissions that provide access to the user voicemail box. "
+    },
+    "android.permission-group.WALLPAPER": {
+        "prefix": [
+            "permission-group-android.permission-group.WALLPAPER",
+            "pg-apW"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.WALLPAPER\"/>"
+        ],
+        "description": "Group of permissions that allow manipulation of how another application displays UI to the user. "
+    },
+    "android.permission-group.WRITE_USER_DICTIONARY": {
+        "prefix": [
+            "permission-group-android.permission-group.WRITE_USER_DICTIONARY",
+            "pg-apWU"
+        ],
+        "body": [
+            "<permission-group android:name=\"android.permission-group.WRITE_USER_DICTIONARY\"/>"
+        ],
+        "description": "Used for permissions that provide access to the user calendar to create / view events."
     }
 }
