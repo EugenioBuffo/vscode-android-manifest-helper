@@ -3,7 +3,7 @@
   "displayName": "Android Manifest Snippets",
   "description": "Snippets for Android Manifest (AndroidManifest.xml)",
   "publisher": "EugenioBuffo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "https://github.com/EugenioBuffo/vscode-android-manifest-helper",
   "icon": "images/icon.png",
   "engines": {

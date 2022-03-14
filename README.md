@@ -7,8 +7,8 @@ This is the **"android-manifest-snippets"** extension.
 This extension will help you to write AndroidManifest.xml with snippets for:
 - Creation of **AndroidManifest** structure.
 - Creation of **"uses-permission"**.
-- Creation of **"permission-group"**. *[Not Implemented Yet]*
-- Creation of **"uses-feature"**.  *[Not Implemented Yet]*
+- Creation of **"permission-group"**. 
+- Creation of **"uses-feature"**. 
 
 ## Requirements
 
@@ -26,10 +26,14 @@ Published the extension containing snippets for all permissions of Android Manif
 - Initial release of Android Manifest "uses-permissions" snippets.
 - Included a default manifest snippet usable with "am-manifest" prefix.
 
+
+### 1.1.0
+- Added support of "permission-group"
+- Added support of "uses-feature"
 ## Planned Future Features
 
-- Support of "permission-group"
-- Support of "uses-feature"
+~~- Support of "permission-group"~~
+~~- Support of "uses-feature"~~
 
 -----------------------------------------------------------------------------------------------------------
 
